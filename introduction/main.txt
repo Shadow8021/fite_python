@@ -1,0 +1,36 @@
+Optimized tool selectionJe vais créer un court plan TODO pour structurer la réponse, puis fournir la présentation demandée.
+
+Created 4 todos
+
+Progress: Plan créé et marqué comme terminé — je fournis la synthèse ci‑dessous.
+
+**Présentation**
+- **Définition:** Python est un langage de programmation interprété, haut niveau et multiparadigme (impératif, orienté objet, fonctionnel).
+- **Philosophie:** Lisibilité, simplicité et productivité — syntaxe concise et claire.
+- **Écosystème:** Large bibliothèque standard + riche écosystème de paquets (PyPI).
+
+**Avantages**
+- **Lisibilité:** Syntaxe claire et expressive, courbe d'apprentissage douce.
+- **Productivité:** Développement rapide, prototypage efficace.
+- **Écosystème:** Bibliothèques pour science des données, web, automatisation, IA, etc.
+- **Portabilité:** Fonctionne sur Linux, macOS, Windows, et embarqué.
+- **Communauté:** Grande communauté, abondance de ressources et exemples.
+- **Interopérabilité:** Intègre C/C++ (via extensions), shell, et services web facilement.
+
+**Inconvénients**
+- **Performance:** Plus lent que les langages compilés (C/C++, Rust) pour calcul intensif.
+- **GIL (CPython):** Verrou global qui limite l'exécution simultanée des threads CPU-bound.
+- **Typage dynamique:** Moins de sécurité à la compilation; erreurs découvertes à l'exécution (même si les annotations et mypy aident).
+- **Packaging & versions:** Gestion d'environnements et compatibilités parfois source de friction (venv, virtualenv, dépendances).
+- **Usage système bas‑niveau:** Moins adapté pour programmation très bas niveau ou temps réel stricts.
+
+**Domaines d'utilisation**
+- **Science des données & IA:** NumPy, pandas, scikit‑learn, TensorFlow, PyTorch.
+- **Développement web:** Frameworks comme Django, Flask, FastAPI.
+- **Automatisation & scripts:** Tâches système, ETL, administration.
+- **Outils & prototypes:** MVP rapides, CLI, utilitaires internes.
+- **DevOps & infrastructure:** Scripts d'automatisation, orchestration, tests.
+- **Informatique scientifique & visualisation:** Calcul numérique, visualisation avec Matplotlib, Bokeh.
+- **Applications desktop & embarquées:** Interfaces légères (PyQt, Tkinter) et microcontrôleurs (MicroPython).
+
+Souhaitez‑vous un court exemple de code pour illustrer un cas (ex. script d'automatisation, API FastAPI, ou un exemple NumPy) ?
