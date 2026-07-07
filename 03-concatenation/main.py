@@ -1,4 +1,5 @@
 #la concatenation est un processus qui permet d'associer deux ou plusieur chaine de caractère
+#en python l'operateur de concatenation est le symbol +
 print("bonjour"+" toto")
 
 #RESULTAT: "bonjour toto"
