@@ -1,5 +1,5 @@
 #creation d'une liste
-list_eleves=["Alice", "Bob", "Charlie", "David", "Eva"]
+list_eleves=["Alice", "Bob", "Charlie", "David", "Eva","eyes"]
 #affichage de la liste
 print(list_eleves)
 
@@ -21,7 +21,14 @@ print(list_eleves[-1]) #Eva
 
 print(len(list_eleves)) #len permet de compter le nombre d'element de la liste
 
+new_list= list_eleves.append("Frank") #ajoute un element a la fin de la liste
+print(list_eleves)
+list_eleves.insert(2,"Grace") #ajoute un element a l'indexspecifier, dans notre cas 2
+print(list_eleves)
+
+
     #slicing 
+
 print(list_eleves[1:4]) #affiche les elements d'index 1, 2 et 3
 print(list_eleves[:3]) #affiche les elements d'index 0, 1 et 2
 print(list_eleves[2:5]) #affiche les elements d'index 2, 3 et 4
