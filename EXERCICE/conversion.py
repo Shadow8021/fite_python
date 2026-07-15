@@ -1,3 +1,4 @@
+#exercice de conversion du degré en farenheit
 def conversion (nombre):
     reponse=(nombre*9/5)+32
     print(reponse)
