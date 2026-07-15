@@ -26,9 +26,3 @@ print(list_eleves[1:4]) #affiche les elements d'index 1, 2 et 3
 print(list_eleves[:3]) #affiche les elements d'index 0, 1 et 2
 print(list_eleves[2:5]) #affiche les elements d'index 2, 3 et 4
 print(list_eleves[1:5:2]) #affiche les elements d'index 1, 3 et 5
-
-"""
-jdjdk
-dlddl
-dldd
-"""
