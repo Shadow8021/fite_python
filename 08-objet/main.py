@@ -11,5 +11,11 @@ student ={
         "country": "Senegal"
     },
     "active": True,
-    "scores":{"match":[15,17,14],"physics":[16,15,18],"english":[12,14,13]}
+    "scores":{"maths":[15,17,14],"physics":[16,15,18],"english":[12,14,13]}
 }
+
+print(student["subjects"][1])
+
+for matiere in student["scores"]:
+    moyenne= sum(student["scores"][matiere]) / len(student["scores"][matiere])
+    print(f"moyene en {matiere}: {moyenne}")
