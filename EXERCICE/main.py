@@ -20,15 +20,6 @@ while choix != 4:
         choix=int(input("Faites un choix : "))
     except ValueError:
         print("\n*****Veillez enter un nombre en fonction du menu*****\n")
-
-
-
-
-
-
-
-
-
         
     if choix ==1:
         if budget>=500 :
@@ -37,17 +28,12 @@ while choix != 4:
         else:
             print("vous n'avez pas assez d'argent")
 
-
-
-
     elif choix ==2:
         if budget>=1000 :
             print("vous avez acheté le jus")
             budget-=500
         else:
             print("vous n'avez pas assez d'argent")
-
-
 
     elif choix ==3:
         if budget>=1500 :
