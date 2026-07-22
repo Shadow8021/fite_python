@@ -1,4 +1,5 @@
 with open('11-fichier/main.txt','r') as f:
-    contenu = f.readlines()
+    contenu = f.readline()
     
-    print(len(contenu))
+for i in contenu:
+    print(f"-> {i.strip()}")
