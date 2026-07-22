@@ -4,4 +4,5 @@ for i in tuple_one:
     print(i)
 
 tuple_two={1,1,4,4,}
+tuple_two
 print(tuple_two)
