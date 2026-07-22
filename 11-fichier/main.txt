@@ -32,5 +32,3 @@ Progress: Plan créé et marqué comme terminé — je fournis la synthèse ci�
 - **DevOps & infrastructure:** Scripts d'automatisation, orchestration, tests.
 - **Informatique scientifique & visualisation:** Calcul numérique, visualisation avec Matplotlib, Bokeh.
 - **Applications desktop & embarquées:** Interfaces légères (PyQt, Tkinter) et microcontrôleurs (MicroPython).
-
-Souhaitez‑vous un court exemple de code pour illustrer un cas (ex. script d'automatisation, API FastAPI, ou un exemple NumPy) ?
