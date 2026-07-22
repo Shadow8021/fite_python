@@ -4,4 +4,7 @@ group_web={'Brice','David','Amina'}
 print(group_python | group_web)
 #intersection
 print(group_python & group_web)
+#difference
 print(group_python - group_web)
+
+print(group_web-group_python)
