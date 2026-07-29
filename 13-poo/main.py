@@ -24,7 +24,6 @@ class CompteBancaire:
         })
         self.solde=montant+self.solde
         
-
         
     def historique(self):
         print("\n***HISTORIQUE DE DEPOT***\n")
@@ -32,8 +31,6 @@ class CompteBancaire:
         for el in datas:
             print(el)
        
-
-
 
 client1=CompteBancaire(True)
 client1.depose(2000)
