@@ -18,7 +18,7 @@ class CompteBancaire:
         
         
     def retrait (self,montant):
-        if montant>self.solde:    
+        if montant>=self.solde:    
             self.solde=montant-self.solde
             print(f"vous avez effectué un retrait de {montant}")
             print(f"votre solde est de : {self.solde}")
@@ -30,16 +30,19 @@ class CompteBancaire:
         else:
             print("fond insuffisant")
             
-                
+            
+    
     def historique(self):
         print("\n***HISTORIQUE DE DEPOT***\n")
         datas=self.items
+        print
         for el in datas:
             print(el)
        
 
 client1=CompteBancaire(True)
-client1.depose(2000)
-client1.retrait(2000)
-
+#client1.depose(2000)
+#client1.retrait(2000)
+#client1.depose(1000)
+client1.historique()
 
