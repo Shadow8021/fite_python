@@ -73,4 +73,5 @@ class Person:
 
 
 person1=Person("OYAGA","Martial",18,"M","greoyaga@gmail.com","068704756")
+person1.nom_complet()
 person1.AfficherIdentite()
