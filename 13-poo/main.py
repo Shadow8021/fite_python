@@ -38,12 +38,17 @@ class CompteBancaire:
     def historique(self):
         print("\n***HISTORIQUE DE DEPOT***\n")
         datas=self.items
-        for el in datas:
-            print(el)
+        if datas == []:
+            print("Vous n'avez éffectuer aucune transaction")
+        else:
+            for el in datas:
+                        print(el)
 
     def ConsulterSolde(self):
         print(f"votre solde est de {self.solde}")
 
+    def AfficherCompte(self):
+        print()
        
 
 client1=CompteBancaire(True)
