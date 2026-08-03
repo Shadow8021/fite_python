@@ -1,4 +1,4 @@
-
+import datetime
 class CompteBancaire:
     def __init__(self, titulaire, solde=0,items=[]):
         self.titulaire=titulaire
@@ -13,7 +13,8 @@ class CompteBancaire:
         self.items.append({
             "type":"DEPOT",
             "motant": montant,
-            "soldeActuel": self.solde
+            "soldeActuel": self.solde,
+            "Date":datetime.datetime.now()
         })
         
         
@@ -25,7 +26,8 @@ class CompteBancaire:
             self.items.append({
                     "type": "RETRAIT",
                     "motant": montant,
-                    "soldeActuel": self.solde
+                    "soldeActuel": self.solde,
+                    "Date":datetime.datetime.now()
                 })
         else:
             print("fond insuffisant")
@@ -35,16 +37,15 @@ class CompteBancaire:
     def historique(self):
         print("\n***HISTORIQUE DE DEPOT***\n")
         datas=self.items
-        print
         for el in datas:
             print(el)
        
 
-#client1=CompteBancaire(True)
-#client1.depose(2000)
-#client1.retrait(2000)
-#client1.depose(1000)
-#client1.historique()
+client1=CompteBancaire(True)
+client1.depose(2000)
+client1.retrait(2000)
+client1.depose(1000)
+client1.historique()
 
 
 
@@ -72,6 +73,6 @@ class Person:
 
 
 
-person1=Person("OYAGA","Martial",18,"M","greoyaga@gmail.com","068704756")
-person1.nom_complet()
-person1.AfficherIdentite()
+#person1=Person("OYAGA","Martial",18,"M","greoyaga@gmail.com","068704756")
+#person1.nom_complet()
+#person1.AfficherIdentite()
