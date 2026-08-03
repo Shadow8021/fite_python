@@ -1,4 +1,5 @@
 import datetime
+
 class CompteBancaire:
     def __init__(self, titulaire, solde=0,items=[]):
         self.titulaire=titulaire
@@ -39,6 +40,10 @@ class CompteBancaire:
         datas=self.items
         for el in datas:
             print(el)
+
+    def ConsulterSolde(self):
+        print(f"votre solde est de {self.solde}")
+
        
 
 client1=CompteBancaire(True)
@@ -46,6 +51,7 @@ client1.depose(2000)
 client1.retrait(2000)
 client1.depose(1000)
 client1.historique()
+client1.ConsulterSolde()
 
 
 
