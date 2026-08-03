@@ -14,5 +14,5 @@ with open('hr_datum.csv','r') as f:
 
 with open('hr_datum.csv','w', newline="") as f:
     writer = csv.DictWriter(f,fieldnames=eligible[0].keys)
-    writer.writeheader()
+    writer.writeheader() 
     writer.writerows(eligible)
