@@ -40,9 +40,37 @@ class CompteBancaire:
             print(el)
        
 
-client1=CompteBancaire(True)
+#client1=CompteBancaire(True)
 #client1.depose(2000)
 #client1.retrait(2000)
 #client1.depose(1000)
-client1.historique()
+#client1.historique()
 
+
+
+
+
+
+class Person:
+    def __init__(self,nom,prenom,age,sexe,email,phone):
+        self.nom=nom
+        self.age=age
+        self.prenom=prenom
+        self.sexe=sexe
+        self.phone=phone
+        self.email=email
+
+    def nom_complet(self):
+        name=(f"{self.nom} {self.prenom}")
+        return name
+
+    def AfficherIdentite(self):
+        print(f"Nom: {self.nom} {self.prenom}")
+        print(f"Age: {self.age}")
+        print(f"Sexe: {self.sexe}")
+        print(f"Contacts: \n\t{self.phone}\n\t{self.email}")
+
+
+
+person1=Person("OYAGA","Martial",18,"M","greoyaga@gmail.com","068704756")
+person1.AfficherIdentite()
