@@ -8,9 +8,9 @@ formulaire.pack(pady=20)
 
 def Addition():
     try:
-        a=float(nbr1.get())
-        b=float(nbr2.get())
-        resultat.config(text=f"Resultat: {nbr1+nbr2}")
+        a=float(nbr1)
+        b=float(nbr2)
+        resultat.config(text=f"Resultat: {a+b}")
     except:
         messagebox.showerror("Erreur", "Veuillez entrer des nombres")
 
@@ -18,9 +18,9 @@ def Addition():
 
 def Division():
     try:
-        a=float(nbr1.get())
-        b=float(nbr2.get())
-        resultat.config(text=f"Resultat: {nbr1/nbr2}")
+        a=float(nbr1)
+        b=float(nbr2)
+        resultat.config(text=f"Resultat: {a/b}")
     except ValueError:
         messagebox.showerror("Erreur", "Veuillez entrer des nombres")
     except ZeroDivisionError:
@@ -30,9 +30,9 @@ def Division():
 
 def Multiplication():
     try:
-        a=float(nbr1.get())
-        b=float(nbr2.get())
-        resultat.config(text=f"Resultat: {nbr1*nbr2}")
+        a=float(nbr1)
+        b=float(nbr2)
+        resultat.config(text=f"Resultat: {a*b}")
     except:
         messagebox.showerror("Erreur", "Veuillez entrer des nombres")
 
@@ -40,9 +40,9 @@ def Multiplication():
 
 def Soustraction():
     try:
-        a=float(nbr1.get())
-        b=float(nbr2.get())
-        resultat.config(text=f"Resultat: {nbr1+nbr2}")
+        a=float(nbr1)
+        b=float(nbr2)
+        resultat.config(text=f"Resultat: {a+b}")
     except:
         messagebox.showerror("Erreur", "Veuillez entrer des nombres")
 
