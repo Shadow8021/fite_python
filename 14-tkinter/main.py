@@ -2,7 +2,7 @@ import tkinter as tk
 
 fenetre = tk.Tk()
 fenetre.title("Formulaire")
-fenetre.geometry("500x300")
+fenetre.geometry("100x300")
 
 formulaire = tk.Frame(fenetre)
 formulaire.pack(pady=20)
