@@ -1,9 +1,7 @@
-import tkinter
+import tkinter as tk
+fn=tk.Tk()
+fn.title("mon application")
+fn.geometry("500x500")
+fn["bg"]="#030048"
 
-fenetre=tkinter.Tk()
-fenetre.geometry("500x700")
-fenetre.title("mon app")
-fenetre["bg"]="#030048"
-fenetre.resizable(width=False,height=False)
-
-fenetre.mainloop()
+tk.Label(fn,text="mon label")
