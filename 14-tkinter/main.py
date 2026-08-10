@@ -39,11 +39,11 @@ tk.Button(buttons, text="Valider").pack(
     side="left", padx=5
 )
 
-tk.Button(buttons, text="Effacer").pack(
+tk.Button(buttons, text="Effacer",).pack(
     side="left", padx=5
 )
 
-tk.Button(buttons, text="Quitter").pack(
+tk.Button(buttons, text="Quitter",command=fenetre.destroy).pack(
     side="left", padx=5
 )
 
