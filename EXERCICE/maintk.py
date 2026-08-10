@@ -1,8 +1,9 @@
 import tkinter
 
-fne=tkinter.Tk()
-fne.geometry("500x500")
-fne.title("mon application")
-fne["bg"]="#060763"
-fne.resizable(width=False,height=False)
-fne.mainloop()
+fenetre=tkinter.Tk()
+fenetre.geometry("500x700")
+fenetre.title("mon app")
+fenetre["bg"]="#030048"
+fenetre.resizable(width=False,height=False)
+
+fenetre.mainloop()
