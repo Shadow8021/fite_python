@@ -64,7 +64,7 @@ bouton_effacer.pack(pady=10)
 bouton_quitter = tk.Button(fenetre, text="Quitter", command=demander_quitter)
 bouton_quitter.pack(pady=10)
 
-
+fenetre.protocol("WM_DELETE_WINDOW", demander_quitter)
 fenetre.title("Formulaire pour resident")
 fenetre.geometry("400x300") 
 
