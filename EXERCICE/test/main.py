@@ -1,7 +1,7 @@
 import tkinter as tk
 fen=tk.Tk()
 
-fen["bg"]="blue"
+fen["bg"]="red"
 
 
 fen.mainloop()
