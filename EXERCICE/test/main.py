@@ -13,12 +13,12 @@ label = tk.Label(
     fenetre,
     text="Bonjour Tkinter",
     font=("Liberation Sans", 10, "bold italic")
-).grid(column=0,row=0)
+).grid(column=1,row=0)
 label = tk.Label(
     fenetre,
     text="Bonjour Tkinter",
     font=("Liberation Sans", 10, "bold italic")
-).grid(column=0,row=0)
+).grid(column=2,row=0)
 
 
 fenetre.mainloop()
