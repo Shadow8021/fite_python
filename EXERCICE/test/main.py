@@ -1,9 +1,14 @@
 import tkinter as tk
-fen=tk.Tk()
 
-fen["bg"]="red"
+fenetre = tk.Tk()
+fenetre.geometry("500x300")
 
-menu_principal = tk.Menu(fen)
-fen.config(menu=menu_principal)
-menu_principal.add_cascade(label="martial")
-fen.mainloop()
+label = tk.Label(
+    fenetre,
+    text="Bonjour Tkinter",
+    font=("Arial", 50, "bold")
+)
+
+label.pack(pady=50)
+
+fenetre.mainloop()
