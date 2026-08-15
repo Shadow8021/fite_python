@@ -25,4 +25,6 @@ label = tk.Label(
     text="Bonjour Tkinter",
     font=("Liberation Sans", 10, "bold italic")
 ).place(x=10,y=10)
+
+
 fenetre.mainloop()
