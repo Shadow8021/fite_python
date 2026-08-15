@@ -7,8 +7,18 @@ label = tk.Label(
     fenetre,
     text="Bonjour Tkinter",
     font=("Liberation Sans", 10, "bold italic")
-)
+).grid(column=0,row=0)
 
-label.pack(pady=50)
+label = tk.Label(
+    fenetre,
+    text="Bonjour Tkinter",
+    font=("Liberation Sans", 10, "bold italic")
+).grid(column=0,row=0)
+label = tk.Label(
+    fenetre,
+    text="Bonjour Tkinter",
+    font=("Liberation Sans", 10, "bold italic")
+).grid(column=0,row=0)
+
 
 fenetre.mainloop()
