@@ -20,5 +20,9 @@ label = tk.Label(
     font=("Liberation Sans", 10, "bold italic")
 ).grid(column=2,row=0)
 
-
+label = tk.Label(
+    fenetre,
+    text="Bonjour Tkinter",
+    font=("Liberation Sans", 10, "bold italic")
+).place(x=10,y=10)
 fenetre.mainloop()
