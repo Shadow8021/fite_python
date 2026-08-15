@@ -1,12 +1,12 @@
 import tkinter as tk
 
 fenetre = tk.Tk()
-fenetre.geometry("500x300")
+fenetre.geometry("700x300")
 
 label = tk.Label(
     fenetre,
     text="Bonjour Tkinter",
-    font=("Arial", 50, "bold")
+    font=("Liberation Sans", 50, "bold italic")
 )
 
 label.pack(pady=50)
