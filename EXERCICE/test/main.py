@@ -6,7 +6,7 @@ fenetre.geometry("700x300")
 label = tk.Label(
     fenetre,
     text="Bonjour Tkinter",
-    font=("Liberation Sans", 50, "bold italic")
+    font=("Liberation Sans", 10, "bold italic")
 )
 
 label.pack(pady=50)
