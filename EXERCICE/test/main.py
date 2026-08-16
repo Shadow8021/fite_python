@@ -14,11 +14,12 @@ label = tk.Label(
     text="Bonjour Tkinter",
     font=("Liberation Sans", 10, "bold italic")
 ).grid(column=1,row=0)
-label = tk.Label(
+
+label1 = tk.Label(
     fenetre,
     text="Bonjour Tkinter",
     font=("Liberation Sans", 10, "bold italic")
-).grid(column=2,row=0)
+).pack(side="bottom", padx=40)
 
 label = tk.Label(
     fenetre,
