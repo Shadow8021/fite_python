@@ -2,6 +2,11 @@ import tkinter as tk
 
 fenetre = tk.Tk()
 fenetre.geometry("700x300")
-a=tk.Entry(fenetre,width=100,border=8).pack()
+a=tk.Entry(fenetre,width=100,border=3).pack()
 
+def onClick():
+    lab=tk.Label(fenetre, text="Vous avez saisie ")
+    lab.pack()
+
+btn=tk.Button(fenetre,text="envoyer", command=onClick).place(x=0,y=50)
 fenetre.mainloop()
