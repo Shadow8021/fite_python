@@ -6,7 +6,7 @@ a=tk.Entry(fenetre,width=100,border=3)
 a.pack()
 
 def onClick():
-    lab=tk.Label(fenetre, text="Vous avez saisie "+a.get())
+    lab=tk.Label(fenetre, text=f"Vous avez saisie {a.get()}")
     lab.pack()
 
 btn=tk.Button(fenetre,text="envoyer", command=onClick).place(x=0,y=50)
