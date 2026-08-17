@@ -22,10 +22,10 @@ btn2=tk.Button(fenetre,text="2",padx=20,pady=16, command= lambda: onClick(2))
 btn1=tk.Button(fenetre,text="1",padx=20,pady=16, command= lambda: onClick(1))
 btn0=tk.Button(fenetre,text="0",padx=20,pady=16, command= lambda: onClick(0))
 
-btnAd=tk.Button(fenetre,text="+",padx=20,pady=23, command= lambda: onClick(0))
+btnAd=tk.Button(fenetre,text="+",padx=20,pady=30, command= lambda: onClick(0))
 
-btne=tk.Button(fenetre,text="=",padx=40,pady=12, command= lambda: onClick(0))
-btnc=tk.Button(fenetre,text="clear",padx=40,pady=12, command= lambda: onClick(0))
+btne=tk.Button(fenetre,text="=",padx=58,pady=11, command= lambda: onClick(0))
+btnc=tk.Button(fenetre,text="clear",padx=46,pady=11, command= lambda: onClick(0))
 
 
 btn9.grid(column=0,row=2)
