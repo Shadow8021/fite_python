@@ -7,9 +7,35 @@ a=tk.Entry(fenetre,border=3,width=36)
 a.grid(column=0,row=0,columnspan=3)
 lab=tk.Label(fenetre,text="")
 lab.grid(column=0,row=1)
+
 def onClick(nbr):
-    lab=tk.Label(fenetre, text=f"Vous avez saisie {a.get()}")
-    lab.pack()
+    el=a.get()
+    a.delete(0, tk.END)
+    a.insert(0,str(el)+str(nbr))
+
+def reset():
+    a.delete(0, tk.END)
+    
+
+def addFunc():
+    global nombre1
+    nombre1 = a.get()
+    a.delete(0,tk.END)
+
+def clacule():
+    nombre2=a.get()
+    a.delete(0, tk.END)
+    try:
+        resultat= int(nombre1)+int(nombre2)
+        a.insert(0,resultat)
+        
+    except:
+        a.insert(0, "Erreur de valeur")
+
+    
+    
+   
+    
 
 btn9=tk.Button(fenetre,text="9",padx=20,pady=16,  command= lambda: onClick(9))
 btn8=tk.Button(fenetre,text="8",padx=20,pady=16, command= lambda: onClick(8))
@@ -22,10 +48,10 @@ btn2=tk.Button(fenetre,text="2",padx=20,pady=16, command= lambda: onClick(2))
 btn1=tk.Button(fenetre,text="1",padx=20,pady=16, command= lambda: onClick(1))
 btn0=tk.Button(fenetre,text="0",padx=20,pady=16, command= lambda: onClick(0))
 
-btnAd=tk.Button(fenetre,text="+",padx=20,pady=30, command= lambda: onClick(0))
+btnAd=tk.Button(fenetre,text="+",padx=20,pady=30, command= lambda: addFunc())
 
-btne=tk.Button(fenetre,text="=",padx=58,pady=11, command= lambda: onClick(0))
-btnc=tk.Button(fenetre,text="clear",padx=46,pady=11, command= lambda: onClick(0))
+btne=tk.Button(fenetre,text="=",padx=58,pady=11, command= lambda: clacule())
+btnc=tk.Button(fenetre,text="clear",padx=9,pady=16, command= lambda: reset())
 
 
 btn9.grid(column=0,row=2)
@@ -40,8 +66,11 @@ btn3.grid(column=0,row=4)
 btn2.grid(column=1,row=4)
 btn1.grid(column=2,row=4)
 
+
+btn0.grid(column=2,row=5)
+btnc.grid(column=1,row=5 )
+
 btnAd.grid(column=0,row=5,rowspan=2)
-btne.grid(column=1,row=5,columnspan=2 )
-btnc.grid(column=1,row=6, columnspan=2 )
+btne.grid(column=1,row=6, columnspan=2 )
 
 fenetre.mainloop()

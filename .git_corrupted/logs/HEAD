@@ -1,0 +1,161 @@
+0000000000000000000000000000000000000000 e2a19a1f15e228c2c2f301812103f54b7721cfeb Shadow8021 <gregoyaga@gmail.com> 1784016916 +0100	commit (initial): init
+e2a19a1f15e228c2c2f301812103f54b7721cfeb e4ca440adf4d924edd6c12a92f12a64e163a1cc4 Shadow8021 <gregoyaga@gmail.com> 1784016935 +0100	commit: init
+e4ca440adf4d924edd6c12a92f12a64e163a1cc4 c1c904c39ba5476b528eb0563c36591b762940f2 Shadow8021 <gregoyaga@gmail.com> 1784017102 +0100	commit: print function
+c1c904c39ba5476b528eb0563c36591b762940f2 9d94304cdd42f4885f8e1eaa64824e914873597c Shadow8021 <gregoyaga@gmail.com> 1784017169 +0100	commit: print function
+9d94304cdd42f4885f8e1eaa64824e914873597c eed51a5eb42276d9ffe4a40bee16499bda665d83 Shadow8021 <gregoyaga@gmail.com> 1784018189 +0100	commit: notion de variable
+eed51a5eb42276d9ffe4a40bee16499bda665d83 f26f16015f9534cbb02327e69c4a1fb4e3ac05f4 Shadow8021 <gregoyaga@gmail.com> 1784018609 +0100	commit: concatenation
+f26f16015f9534cbb02327e69c4a1fb4e3ac05f4 7471b26353ad7f1c3912aea46011304cbe6ec428 Shadow8021 <gregoyaga@gmail.com> 1784018854 +0100	commit: concatenation
+7471b26353ad7f1c3912aea46011304cbe6ec428 8c196966e52c6c94940612fc37a69fd95af86e6d Shadow8021 <gregoyaga@gmail.com> 1784019173 +0100	commit: concatenation
+8c196966e52c6c94940612fc37a69fd95af86e6d 0506cdd3f4fd36a6662bf01f3546d8cc1acec0ae Shadow8021 <gregoyaga@gmail.com> 1784021942 +0100	commit: concatenation
+0506cdd3f4fd36a6662bf01f3546d8cc1acec0ae d53364a925d9ee7f032830bec31cb31b46251aa2 Shadow8021 <gregoyaga@gmail.com> 1784021963 +0100	commit: concatenation
+d53364a925d9ee7f032830bec31cb31b46251aa2 865bd99244bc6876cb4932a9a515725e10642b81 Shadow8021 <gregoyaga@gmail.com> 1784022106 +0100	commit: condition
+865bd99244bc6876cb4932a9a515725e10642b81 01caa800c21b4ef0e09a44b25b87eca7563a0724 Shadow8021 <gregoyaga@gmail.com> 1784107534 +0100	commit: jour 5
+01caa800c21b4ef0e09a44b25b87eca7563a0724 6d7a112c07049df19ffbc396869f032a69231ca6 Shadow8021 <gregoyaga@gmail.com> 1784108659 +0100	commit: jour 5
+6d7a112c07049df19ffbc396869f032a69231ca6 5f6ce0ba61acdc5b9c0bbf4aa4d4538cfbb403f3 Shadow8021 <gregoyaga@gmail.com> 1784109053 +0100	commit: fonction et module
+5f6ce0ba61acdc5b9c0bbf4aa4d4538cfbb403f3 0000000000000000000000000000000000000000 Shadow8021 <gregoyaga@gmail.com> 1784109155 +0100	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 5f6ce0ba61acdc5b9c0bbf4aa4d4538cfbb403f3 Shadow8021 <gregoyaga@gmail.com> 1784109155 +0100	Branch: renamed refs/heads/master to refs/heads/main
+5f6ce0ba61acdc5b9c0bbf4aa4d4538cfbb403f3 0ccd421f74ba65103bfb4e17be96f728902183c4 Shadow8021 <gregoyaga@gmail.com> 1784110263 +0100	commit: exo1
+0ccd421f74ba65103bfb4e17be96f728902183c4 e499fae5aa025e115b3aeb7dbb9e4e9c9bd0cf9e Shadow8021 <gregoyaga@gmail.com> 1784110322 +0100	commit: exo1
+e499fae5aa025e115b3aeb7dbb9e4e9c9bd0cf9e f0fb981f828ace8b419bc016e6c2ebac173ccfe4 Shadow8021 <gregoyaga@gmail.com> 1784111124 +0100	commit: debut des liste
+f0fb981f828ace8b419bc016e6c2ebac173ccfe4 0340eda39d7d240044bdc2f66ff8029f6972084d Shadow8021 <gregoyaga@gmail.com> 1784111972 +0100	commit: ceation de liste
+0340eda39d7d240044bdc2f66ff8029f6972084d 0fc96fb6097a0d077ad2a8dfa84edd9d68df52f9 Shadow8021 <gregoyaga@gmail.com> 1784112314 +0100	commit: affichage et methode
+0fc96fb6097a0d077ad2a8dfa84edd9d68df52f9 553057724d2a04be8a8f40a49c4d9b771caab5de Shadow8021 <gregoyaga@gmail.com> 1784112555 +0100	commit: affichage et methode
+553057724d2a04be8a8f40a49c4d9b771caab5de 694d81e18bd5ddd4edb544e3340609fd68f790f3 Shadow8021 <gregoyaga@gmail.com> 1784112759 +0100	commit: rename
+694d81e18bd5ddd4edb544e3340609fd68f790f3 0744051100d4f7f96e81d728d48e7864ba46f6ff Shadow8021 <gregoyaga@gmail.com> 1784112778 +0100	commit: rename
+0744051100d4f7f96e81d728d48e7864ba46f6ff 7454fa8d256f2c2422a4505d476fb38f7ff4b9fd Shadow8021 <gregoyaga@gmail.com> 1784112989 +0100	commit: slicing methode
+7454fa8d256f2c2422a4505d476fb38f7ff4b9fd b2a864fd68a26bc8cf443c924a7bd839c5fe046b Shadow8021 <gregoyaga@gmail.com> 1784113056 +0100	commit: slicing methode
+b2a864fd68a26bc8cf443c924a7bd839c5fe046b 7bdb8b7c4bad10de437ed1e3166468a9c546f36d Shadow8021 <gregoyaga@gmail.com> 1784113762 +0100	commit: saut dans la liste
+7bdb8b7c4bad10de437ed1e3166468a9c546f36d d25a2ceaf70575c8b44c10950f68cef962cd8aee Shadow8021 <gregoyaga@gmail.com> 1784115941 +0100	commit: liste et methode fin
+d25a2ceaf70575c8b44c10950f68cef962cd8aee 956df5f83685b20a4ccff7a1c86ff40c401c138c Shadow8021 <gregoyaga@gmail.com> 1784545046 +0100	commit: object state
+956df5f83685b20a4ccff7a1c86ff40c401c138c e463234597c60d5e023cbc8fc8988778543ec1d2 Shadow8021 <gregoyaga@gmail.com> 1784546627 +0100	commit: mini exo
+e463234597c60d5e023cbc8fc8988778543ec1d2 19b1c30a16eee2cc39cd5b60ad0f543be9c302e5 Shadow8021 <gregoyaga@gmail.com> 1784713319 +0100	commit: tuple exo
+19b1c30a16eee2cc39cd5b60ad0f543be9c302e5 34424525e1a5fe4578475cf990f77b58d96f8d5f Shadow8021 <gregoyaga@gmail.com> 1784713633 +0100	commit: tuple print console
+34424525e1a5fe4578475cf990f77b58d96f8d5f 5115d34fb66d76ecfe3f11fe0bba71979b4b7360 Shadow8021 <gregoyaga@gmail.com> 1784714316 +0100	commit: using set
+5115d34fb66d76ecfe3f11fe0bba71979b4b7360 f0825c4c93c8ec74d20f2a0580bef0ca6ba97c0c Shadow8021 <gregoyaga@gmail.com> 1784714957 +0100	commit: end set
+f0825c4c93c8ec74d20f2a0580bef0ca6ba97c0c 3dbd816378ee0392e97065170aaf0423001e75f7 Shadow8021 <gregoyaga@gmail.com> 1784715292 +0100	commit: union
+3dbd816378ee0392e97065170aaf0423001e75f7 1237bcdf1f6631090c5e4a6a8cb534443ad2f80e Shadow8021 <gregoyaga@gmail.com> 1784715300 +0100	commit: union
+1237bcdf1f6631090c5e4a6a8cb534443ad2f80e 748ab39ce92c2ae4de965a81bddd1c56a6565c11 Shadow8021 <gregoyaga@gmail.com> 1784715332 +0100	commit: intersection
+748ab39ce92c2ae4de965a81bddd1c56a6565c11 7a808e4cb2135dffdc41967834d96bc3eb5829bf Shadow8021 <gregoyaga@gmail.com> 1784715335 +0100	commit: intersection
+7a808e4cb2135dffdc41967834d96bc3eb5829bf 4d54a5492456c795cd627bb8a0d29b0249fcb550 Shadow8021 <gregoyaga@gmail.com> 1784715680 +0100	commit: difference
+4d54a5492456c795cd627bb8a0d29b0249fcb550 7ccb50d772e750354525219f0ec1237c3441bdee Shadow8021 <gregoyaga@gmail.com> 1784716367 +0100	commit: set and list
+7ccb50d772e750354525219f0ec1237c3441bdee 989d90a6d69da4fcbfe2e9c284bcc0f42363b0aa Shadow8021 <gregoyaga@gmail.com> 1784717735 +0100	commit: start with files
+989d90a6d69da4fcbfe2e9c284bcc0f42363b0aa 9130714f370a3f911bb961980d70fcb3ca531ba8 Shadow8021 <gregoyaga@gmail.com> 1784717956 +0100	commit: init main;txt
+9130714f370a3f911bb961980d70fcb3ca531ba8 b69fe8f073050639a42d96cad24de8e7c9bf56eb Shadow8021 <gregoyaga@gmail.com> 1784717986 +0100	commit: update main.txt
+b69fe8f073050639a42d96cad24de8e7c9bf56eb 39c391ab16105f738cae037ac596ddafec6fd304 Shadow8021 <gregoyaga@gmail.com> 1784718906 +0100	commit: open and read file
+39c391ab16105f738cae037ac596ddafec6fd304 346f39b6859e874e94ba87d0de54752d25c753cf Shadow8021 <gregoyaga@gmail.com> 1784719105 +0100	commit: read parameter
+346f39b6859e874e94ba87d0de54752d25c753cf 2907159be77b125ee1efe8eed0e13babfc1689a8 Shadow8021 <gregoyaga@gmail.com> 1784719701 +0100	commit: readline file
+2907159be77b125ee1efe8eed0e13babfc1689a8 915a4300559906cc4d3f20b41412f7be47fa7fa4 Shadow8021 <gregoyaga@gmail.com> 1784720010 +0100	commit: start lazygit
+915a4300559906cc4d3f20b41412f7be47fa7fa4 9f0670acc2c48999c5b36eb15ee0a2e3fb76ed07 Shadow8021 <gregoyaga@gmail.com> 1784735325 +0100	commit: exo
+9f0670acc2c48999c5b36eb15ee0a2e3fb76ed07 54f2a30cf3bfd1bf2ab5b64941b301cb520a24be Shadow8021 <gregoyaga@gmail.com> 1784764407 +0100	commit: eyes
+54f2a30cf3bfd1bf2ab5b64941b301cb520a24be 804476bbd109d42a35f8053d4f8bcb77304be7fe Shadow8021 <gregoyaga@gmail.com> 1785145360 +0100	commit: csv
+804476bbd109d42a35f8053d4f8bcb77304be7fe 9323f0a04ad096ef07e9c6b9ae6525f5ed3fc931 Shadow8021 <gregoyaga@gmail.com> 1785147231 +0100	commit: rey except
+9323f0a04ad096ef07e9c6b9ae6525f5ed3fc931 cc0308fb098d1aaa5049af796c2c5b84aafdbf35 Shadow8021 <gregoyaga@gmail.com> 1785147705 +0100	commit: test ZeroDivisionError
+cc0308fb098d1aaa5049af796c2c5b84aafdbf35 2075a24ae02d764edb68c608af54385c1b02ab54 Shadow8021 <gregoyaga@gmail.com> 1785147907 +0100	commit: test valueError
+2075a24ae02d764edb68c608af54385c1b02ab54 9a1e60733f274d6b17cf3b6f97cbaf8d94e025ce Shadow8021 <gregoyaga@gmail.com> 1785148837 +0100	commit: raise function
+9a1e60733f274d6b17cf3b6f97cbaf8d94e025ce a1ff0e00f273e72edacd02d4402fb8c1776d06ce Shadow8021 <gregoyaga@gmail.com> 1785149729 +0100	commit: start poo
+a1ff0e00f273e72edacd02d4402fb8c1776d06ce 282107325f6b637ff7026aad2ff9aecdffa28dc0 Shadow8021 <gregoyaga@gmail.com> 1785151866 +0100	commit: init etudianr class
+282107325f6b637ff7026aad2ff9aecdffa28dc0 4fa66d50f6c0b37ab3affa504249e3ddaed57637 Shadow8021 <gregoyaga@gmail.com> 1785152059 +0100	commit: init etudiant class
+4fa66d50f6c0b37ab3affa504249e3ddaed57637 31599a04f2ee060509593805da8ae7ac7d608497 Shadow8021 <gregoyaga@gmail.com> 1785320347 +0100	commit: fin de l'exo compte bancaire
+31599a04f2ee060509593805da8ae7ac7d608497 5d76a0638c6bae7df00a92b9845c27a3ded0eaf1 Shadow8021 <gregoyaga@gmail.com> 1785320549 +0100	commit: retrait etudiant class
+5d76a0638c6bae7df00a92b9845c27a3ded0eaf1 ae410165bb0c3e4a0ff6892ff2d3f9067c735182 Shadow8021 <gregoyaga@gmail.com> 1785321506 +0100	commit: add retrait feature
+ae410165bb0c3e4a0ff6892ff2d3f9067c735182 ae55ca614583dc8bfcff6963d48f1ca5e3e93978 Shadow8021 <gregoyaga@gmail.com> 1785356755 +0100	commit: fite
+ae55ca614583dc8bfcff6963d48f1ca5e3e93978 ce394713a2093ebc158135874bebc126172153c7 Shadow8021 <gregoyaga@gmail.com> 1785356798 +0100	commit: fite
+ce394713a2093ebc158135874bebc126172153c7 6a95bb847b50a554b3eb59afc357df36085ac448 Shadow8021 <gregoyaga@gmail.com> 1785356826 +0100	commit: fite
+6a95bb847b50a554b3eb59afc357df36085ac448 6d455ad91170b07f6279962880c9b1a514a0aaf5 Shadow8021 <gregoyaga@gmail.com> 1785356849 +0100	commit: fite
+6d455ad91170b07f6279962880c9b1a514a0aaf5 7c9e1ef67749096d8fbe6cd6fdda0d351ea1e3c6 Shadow8021 <gregoyaga@gmail.com> 1785356864 +0100	commit: fite
+7c9e1ef67749096d8fbe6cd6fdda0d351ea1e3c6 3cb1f89085f82ff7c0ea45b7dd2b3ee8c5f88d40 Shadow8021 <gregoyaga@gmail.com> 1785357510 +0100	commit: fite
+3cb1f89085f82ff7c0ea45b7dd2b3ee8c5f88d40 090fc6024ef457f93da1a6bb378aa52b686033c3 Shadow8021 <gregoyaga@gmail.com> 1785751972 +0100	commit: test
+090fc6024ef457f93da1a6bb378aa52b686033c3 60b2402e7b5d87c1f0864e08a03d81aed6285e30 Shadow8021 <gregoyaga@gmail.com> 1785752815 +0100	commit: init
+60b2402e7b5d87c1f0864e08a03d81aed6285e30 794d0c956ecf4989d45b66d6df27f117bccb1474 Shadow8021 <gregoyaga@gmail.com> 1785753540 +0100	commit: init
+794d0c956ecf4989d45b66d6df27f117bccb1474 787c30f19bb6cf021e82938f5e17b4d6922dcd52 Shadow8021 <gregoyaga@gmail.com> 1785754889 +0100	commit: date time
+787c30f19bb6cf021e82938f5e17b4d6922dcd52 f15c7dda8aa1f14d4894aa10250a092f28674a1b Shadow8021 <gregoyaga@gmail.com> 1785756473 +0100	commit: teste solde
+f15c7dda8aa1f14d4894aa10250a092f28674a1b 3d1058c63dfe7b3e1b48f4e9a55fbc4459ba9393 Shadow8021 <gregoyaga@gmail.com> 1785756863 +0100	commit: test condiftion
+3d1058c63dfe7b3e1b48f4e9a55fbc4459ba9393 5563260ec0ef03b049a569efeee216fd03361289 Shadow8021 <gregoyaga@gmail.com> 1786354438 +0100	commit: init tkinter
+5563260ec0ef03b049a569efeee216fd03361289 66d2c461c52fc82cf1fd17ddaac6801b6b9b031d Shadow8021 <gregoyaga@gmail.com> 1786355072 +0100	commit: first fen
+66d2c461c52fc82cf1fd17ddaac6801b6b9b031d 36622f68e1b892e42826ff37cd88b8de51fcaa84 Shadow8021 <gregoyaga@gmail.com> 1786355756 +0100	commit: first exercice
+36622f68e1b892e42826ff37cd88b8de51fcaa84 49288af35628f177f0ed287c550a5e903b3a5509 Shadow8021 <gregoyaga@gmail.com> 1786356721 +0100	commit: test first exercice
+49288af35628f177f0ed287c550a5e903b3a5509 ddde05f0b6be04880ca8cffe5a15bdee1881a58f Shadow8021 <gregoyaga@gmail.com> 1786357744 +0100	commit: end exo
+ddde05f0b6be04880ca8cffe5a15bdee1881a58f f5c46366a23285aa1d015f9754421b870d20edd7 Shadow8021 <gregoyaga@gmail.com> 1786358707 +0100	commit: test items
+f5c46366a23285aa1d015f9754421b870d20edd7 39a5a8bdb6f8bb18b5791c1b28e8bc997235d6f5 Shadow8021 <gregoyaga@gmail.com> 1786359783 +0100	commit: start calcutatrice project
+39a5a8bdb6f8bb18b5791c1b28e8bc997235d6f5 65d770cd9fd5a7214862368e39f967a7c1ad09b7 Shadow8021 <gregoyaga@gmail.com> 1786362285 +0100	commit: en for today
+65d770cd9fd5a7214862368e39f967a7c1ad09b7 5987115769102e556b172f4e999410c46c345a8c Shadow8021 <gregoyaga@gmail.com> 1786362656 +0100	commit: fin pour aujourd'h
+5987115769102e556b172f4e999410c46c345a8c 929d45a17e7a257087192b1e9486204a4fc20c8a Shadow8021 <gregoyaga@gmail.com> 1786387045 +0100	commit: maitrise des fen
+929d45a17e7a257087192b1e9486204a4fc20c8a 1bc29458f8bb2ea6c3a351430bbd29a5ab2ac8cd Shadow8021 <gregoyaga@gmail.com> 1786387078 +0100	commit: maitrise des fen
+1bc29458f8bb2ea6c3a351430bbd29a5ab2ac8cd 7d719de238feae6062aba6802265da4e6b968277 Shadow8021 <gregoyaga@gmail.com> 1786391726 +0100	commit: reinstall vscode
+7d719de238feae6062aba6802265da4e6b968277 c21375b18ccebb4b9eaf2410b84efab275ee8020 Shadow8021 <gregoyaga@gmail.com> 1786396690 +0100	commit: eyes
+c21375b18ccebb4b9eaf2410b84efab275ee8020 8f731a1d5137b58b5dcf42f44a7242bd2ea682e0 Shadow8021 <gregoyaga@gmail.com> 1786397376 +0100	commit: eyes
+8f731a1d5137b58b5dcf42f44a7242bd2ea682e0 aa949246985074688bd2ea0f81df73eb01eaa980 Shadow8021 <gregoyaga@gmail.com> 1786397555 +0100	commit: maitrise du system de display
+aa949246985074688bd2ea0f81df73eb01eaa980 66932acd7c222db03f48e9672195c30d2863637b Shadow8021 <gregoyaga@gmail.com> 1786526746 +0100	commit: pjr
+66932acd7c222db03f48e9672195c30d2863637b 02a0972af4cd8facdcd285a0fcfed7a036d1273e Shadow8021 <gregoyaga@gmail.com> 1786526766 +0100	commit: pjr
+02a0972af4cd8facdcd285a0fcfed7a036d1273e b5f10f37a1298b5ef509940e689b4ee4770a11f2 Shadow8021 <gregoyaga@gmail.com> 1786527841 +0100	commit: test du pjr
+b5f10f37a1298b5ef509940e689b4ee4770a11f2 e30d53879282040cb189c3e587f04fa9e8bad9f5 Shadow8021 <gregoyaga@gmail.com> 1786528074 +0100	commit: creation de menu
+e30d53879282040cb189c3e587f04fa9e8bad9f5 7a39c4b4ce7fd54bf49d84130937a9d1c7670902 Shadow8021 <gregoyaga@gmail.com> 1786528823 +0100	commit: menu principal creation
+7a39c4b4ce7fd54bf49d84130937a9d1c7670902 ce5267ec3ed2084f21e2358917a43fdc0d7a92fc Shadow8021 <gregoyaga@gmail.com> 1786528839 +0100	commit: menu principal creation
+ce5267ec3ed2084f21e2358917a43fdc0d7a92fc e8cd8f55eafb9450e9980786c8108e87997fe162 Shadow8021 <gregoyaga@gmail.com> 1786528928 +0100	commit: menu principal creation
+e8cd8f55eafb9450e9980786c8108e87997fe162 ab504dd6b19c25714efcdc1d4283c1f634a8877e Shadow8021 <gregoyaga@gmail.com> 1786529057 +0100	commit: 1 menu principal creation
+ab504dd6b19c25714efcdc1d4283c1f634a8877e e1aea81d92411e76484b1d40dacd747054dfa237 Shadow8021 <gregoyaga@gmail.com> 1786529301 +0100	commit: 1 menu fonctionnel
+e1aea81d92411e76484b1d40dacd747054dfa237 6b02593a7707ae996d1cbd5a18afe085c951b143 Shadow8021 <gregoyaga@gmail.com> 1786530493 +0100	commit: 1 sous-menu fonctionnel
+6b02593a7707ae996d1cbd5a18afe085c951b143 39bc14bab9c6709beceb6d100b6df78174954546 Shadow8021 <gregoyaga@gmail.com> 1786532589 +0100	commit: sous-sous menu
+39bc14bab9c6709beceb6d100b6df78174954546 dead5a571ebea268b094c127d707adc2e114aac2 Shadow8021 <gregoyaga@gmail.com> 1786535080 +0100	commit: start scrollbar
+dead5a571ebea268b094c127d707adc2e114aac2 f6ce0c26d606315249eccc173489b4f70bb74a04 Shadow8021 <gregoyaga@gmail.com> 1786535169 +0100	commit: fin
+f6ce0c26d606315249eccc173489b4f70bb74a04 089e2229634ddb562b923b5d50eba1d683b4bf61 Shadow8021 <gregoyaga@gmail.com> 1786725743 +0100	commit: travail
+089e2229634ddb562b923b5d50eba1d683b4bf61 46d1b7abc3a18267aa2f972a831665f58c6b84e7 Shadow8021 <gregoyaga@gmail.com> 1786725783 +0100	commit: travail
+46d1b7abc3a18267aa2f972a831665f58c6b84e7 98b778c2cd1d6c7fca6ca1ca2cd2492097452b68 Shadow8021 <gregoyaga@gmail.com> 1786725858 +0100	commit: travail
+98b778c2cd1d6c7fca6ca1ca2cd2492097452b68 7fde466de208a5d922f3aa06735294f578e3fe7f Shadow8021 <gregoyaga@gmail.com> 1786726044 +0100	commit: travail
+7fde466de208a5d922f3aa06735294f578e3fe7f 34d927cf088e3b6a5fcd4a3daf4e954a35c5322e Shadow8021 <gregoyaga@gmail.com> 1786726706 +0100	commit: travail
+34d927cf088e3b6a5fcd4a3daf4e954a35c5322e fc02cde37199b6b95f1ac107b3f4de13a04f518f Shadow8021 <gregoyaga@gmail.com> 1786726758 +0100	commit: travail
+fc02cde37199b6b95f1ac107b3f4de13a04f518f 004d17137fcf6c181c1f22102ac746b31a65c66b Shadow8021 <gregoyaga@gmail.com> 1786802270 +0100	commit: eyes
+004d17137fcf6c181c1f22102ac746b31a65c66b b85d2773589a282e98273ff841c0580e18957cc4 Shadow8021 <gregoyaga@gmail.com> 1787000898 +0100	commit: configuration des fonts
+b85d2773589a282e98273ff841c0580e18957cc4 a10852a7bd59a515b840429ceadaee9af27d2004 Shadow8021 <gregoyaga@gmail.com> 1787000943 +0100	commit: configuration des fonts
+a10852a7bd59a515b840429ceadaee9af27d2004 50bac93ab90ef3384653cb9b3a9c522baab30586 Shadow8021 <gregoyaga@gmail.com> 1787001144 +0100	commit: configuration des fonts
+50bac93ab90ef3384653cb9b3a9c522baab30586 f466a5c09fbb5ded2b2d1b644bf01a5421a4f29a Shadow8021 <gregoyaga@gmail.com> 1787001189 +0100	commit: configuration des fonts
+f466a5c09fbb5ded2b2d1b644bf01a5421a4f29a 0718fbe320b4fd81a354a4cd6d6656252e87fa18 Shadow8021 <gregoyaga@gmail.com> 1787001263 +0100	commit: place grid pack
+0718fbe320b4fd81a354a4cd6d6656252e87fa18 829fe794c9f81f10f3c22666e3d4e7feeaad161a Shadow8021 <gregoyaga@gmail.com> 1787001316 +0100	commit: place grid pack
+829fe794c9f81f10f3c22666e3d4e7feeaad161a e16b2ac76b9465c0bd5ea0de6c7ce9618d738677 Shadow8021 <gregoyaga@gmail.com> 1787001513 +0100	commit: place grid pack
+e16b2ac76b9465c0bd5ea0de6c7ce9618d738677 c0bae5a0433d328bca615fe3bfa7a2fda1f82481 Shadow8021 <gregoyaga@gmail.com> 1787001538 +0100	commit: place grid pack
+c0bae5a0433d328bca615fe3bfa7a2fda1f82481 065ab693036b6f78370fd58574d3c00ba78c51cc Shadow8021 <gregoyaga@gmail.com> 1787001591 +0100	commit: button
+065ab693036b6f78370fd58574d3c00ba78c51cc c6e5bb8edd2486850aa1ff1c68b206eb4364bc2e Shadow8021 <gregoyaga@gmail.com> 1787001726 +0100	commit: button
+c6e5bb8edd2486850aa1ff1c68b206eb4364bc2e 1a9f378326bb0c46acab7aa79205c454e3907ec8 Shadow8021 <gregoyaga@gmail.com> 1787002073 +0100	commit: button
+1a9f378326bb0c46acab7aa79205c454e3907ec8 fc9bae52c8fb9b2d55fb0818a3650c6a22f6bb42 Shadow8021 <gregoyaga@gmail.com> 1787002285 +0100	commit: button
+fc9bae52c8fb9b2d55fb0818a3650c6a22f6bb42 cc13ea634a356e5d6145b0aa5595031fccf999e7 Shadow8021 <gregoyaga@gmail.com> 1787002343 +0100	commit: button
+cc13ea634a356e5d6145b0aa5595031fccf999e7 110e8db179b1bfe7998d4179ca2984c6e323bdcc Shadow8021 <gregoyaga@gmail.com> 1787003330 +0100	commit: button
+110e8db179b1bfe7998d4179ca2984c6e323bdcc 5f1ffb05b81bcb1cb471f34734bebb0e475636f3 Shadow8021 <gregoyaga@gmail.com> 1787003404 +0100	commit: button
+5f1ffb05b81bcb1cb471f34734bebb0e475636f3 2f2b609856206cb717bdc6fc49c8922eed4528b6 Shadow8021 <gregoyaga@gmail.com> 1787003436 +0100	commit: input
+2f2b609856206cb717bdc6fc49c8922eed4528b6 09eacaec146acdeab594b07ba623fd5769ef9bf7 Shadow8021 <gregoyaga@gmail.com> 1787003536 +0100	commit: input
+09eacaec146acdeab594b07ba623fd5769ef9bf7 e1c4e4b23148eb05e0602aa1e23cc655283899b7 Shadow8021 <gregoyaga@gmail.com> 1787003985 +0100	commit: input
+e1c4e4b23148eb05e0602aa1e23cc655283899b7 1cc88a232fbedf0175a8c0a2090dab7d7b73e8bb Shadow8021 <gregoyaga@gmail.com> 1787004410 +0100	commit: input
+1cc88a232fbedf0175a8c0a2090dab7d7b73e8bb 22603a7ff3de3c32fc3c3a1f346b1230f1d3921a Shadow8021 <gregoyaga@gmail.com> 1787004536 +0100	commit: input
+22603a7ff3de3c32fc3c3a1f346b1230f1d3921a e883504e917d13c89bb78f9ac326ae603ad86b8d Shadow8021 <gregoyaga@gmail.com> 1787004685 +0100	commit: input
+e883504e917d13c89bb78f9ac326ae603ad86b8d 39d8d1e7c3f348b19a0c21b594cfd6a454b3f964 Shadow8021 <gregoyaga@gmail.com> 1787004829 +0100	commit: input
+39d8d1e7c3f348b19a0c21b594cfd6a454b3f964 bded7284a58dab86918fefe41c4164c6c36f8c18 Shadow8021 <gregoyaga@gmail.com> 1787005020 +0100	commit: input
+bded7284a58dab86918fefe41c4164c6c36f8c18 922c82f182dc82acbf977df56b99cf9b2bdb826a Shadow8021 <gregoyaga@gmail.com> 1787006095 +0100	commit: calculatrice
+922c82f182dc82acbf977df56b99cf9b2bdb826a b0474d9be32a499577a4236f6f9fd2c7eed06cf5 Shadow8021 <gregoyaga@gmail.com> 1787006312 +0100	commit: calculatrice
+b0474d9be32a499577a4236f6f9fd2c7eed06cf5 3f81c90f85a9760ddf7d7d08b1f200020f3386d2 Shadow8021 <gregoyaga@gmail.com> 1787006661 +0100	commit: calculatrice
+3f81c90f85a9760ddf7d7d08b1f200020f3386d2 bf2c8641af90e6622f6aadc889014e26b4ec9aea Shadow8021 <gregoyaga@gmail.com> 1787006934 +0100	commit: calculatrice
+bf2c8641af90e6622f6aadc889014e26b4ec9aea 513dbac71b4378c2a5b1f693a9c373d939fe8903 Shadow8021 <gregoyaga@gmail.com> 1787007538 +0100	commit: calculatrice
+513dbac71b4378c2a5b1f693a9c373d939fe8903 0605c98832ab31f26377df6f44359afa0979f472 Shadow8021 <gregoyaga@gmail.com> 1787007772 +0100	commit: calculatrice
+0605c98832ab31f26377df6f44359afa0979f472 22a33e4d6f6578e996226f77a500cc9dd5867b3c Shadow8021 <gregoyaga@gmail.com> 1787079602 +0100	commit: fonction
+22a33e4d6f6578e996226f77a500cc9dd5867b3c 0eb5f6a317f220bcceda7a828522f7f82b48a290 Shadow8021 <gregoyaga@gmail.com> 1787079864 +0100	commit: fonction
+0eb5f6a317f220bcceda7a828522f7f82b48a290 6f7e34f9e5de1d6c13e2a457142bc5699951aefc Shadow8021 <gregoyaga@gmail.com> 1787080095 +0100	commit: fonction
+6f7e34f9e5de1d6c13e2a457142bc5699951aefc 0c3a78382b21ae02551b428aa95f9570ebf7608c Shadow8021 <gregoyaga@gmail.com> 1787080156 +0100	commit: fonction
+0c3a78382b21ae02551b428aa95f9570ebf7608c c10d60d9caf120fbc1dfadb157884574bdb9d082 Shadow8021 <gregoyaga@gmail.com> 1787080522 +0100	commit: fonction
+c10d60d9caf120fbc1dfadb157884574bdb9d082 e6e37c836ab9f576adbd5d5c15cb57e2ef73ad67 Shadow8021 <gregoyaga@gmail.com> 1787080648 +0100	commit: fonction reset
+e6e37c836ab9f576adbd5d5c15cb57e2ef73ad67 4ec73807ce853f0cf869a682ec7289b3ce53f4d6 Shadow8021 <gregoyaga@gmail.com> 1787081378 +0100	commit: fonction reset
+4ec73807ce853f0cf869a682ec7289b3ce53f4d6 60b336df40716e888e0db8e2a5d66161441af17a Shadow8021 <gregoyaga@gmail.com> 1787081923 +0100	commit: fonction reset
+60b336df40716e888e0db8e2a5d66161441af17a 2dc2923b6107af3d4d4a7fcfc4c5b894ba2da677 Shadow8021 <gregoyaga@gmail.com> 1787082066 +0100	commit: fonction reset
+2dc2923b6107af3d4d4a7fcfc4c5b894ba2da677 65bce24237fcfc576845c1b91f52c70c682c7d5b Shadow8021 <gregoyaga@gmail.com> 1787082098 +0100	commit: fonction reset
+65bce24237fcfc576845c1b91f52c70c682c7d5b 08e0b1766cd2b8e7bd08f63918e0271515e32935 Shadow8021 <gregoyaga@gmail.com> 1787082422 +0100	commit: fonction add et calculer
+08e0b1766cd2b8e7bd08f63918e0271515e32935 b8431d7ea0e2ca37851be3bc04cf35d5231e80ff Shadow8021 <gregoyaga@gmail.com> 1787082593 +0100	commit: fonction add et calculer
+b8431d7ea0e2ca37851be3bc04cf35d5231e80ff c4400e7793099bc2abba497f0516ec3f4a4bac57 Shadow8021 <gregoyaga@gmail.com> 1787082837 +0100	commit: fonction add et calculer
+c4400e7793099bc2abba497f0516ec3f4a4bac57 0edbcd71860386ed5d791fd462c95b6a68ee8ac4 Shadow8021 <gregoyaga@gmail.com> 1787082991 +0100	commit: fonction add et calculer
+0edbcd71860386ed5d791fd462c95b6a68ee8ac4 ac343bd7b8d0db41468ab76d6cf604c9733081f2 Shadow8021 <gregoyaga@gmail.com> 1787083443 +0100	commit: fonction add et calculer
+ac343bd7b8d0db41468ab76d6cf604c9733081f2 fc79cdfbbe3bcae98b805e485f1af40b2c26350a Shadow8021 <gregoyaga@gmail.com> 1787083853 +0100	commit: splash
+fc79cdfbbe3bcae98b805e485f1af40b2c26350a 938ef5c8c937b7651e53a7b65086d120c335b4c5 Shadow8021 <gregoyaga@gmail.com> 1787083864 +0100	commit: splash
+938ef5c8c937b7651e53a7b65086d120c335b4c5 4919bf14ab20c928d24afbba8d2ab2eff0af211d Shadow8021 <gregoyaga@gmail.com> 1787084111 +0100	commit: splash
+4919bf14ab20c928d24afbba8d2ab2eff0af211d f62ab20fc1afb04553b3921287f8ad6764e52356 Shadow8021 <gregoyaga@gmail.com> 1787084315 +0100	commit: splash
+f62ab20fc1afb04553b3921287f8ad6764e52356 90ffedc730755ce183f18be9812c27ed62601bf3 Shadow8021 <gregoyaga@gmail.com> 1787084457 +0100	commit: splash
+90ffedc730755ce183f18be9812c27ed62601bf3 2b5ac3b2ee0d29b1572355d20f145f21a0facd61 Shadow8021 <gregoyaga@gmail.com> 1787084786 +0100	commit: splash
+2b5ac3b2ee0d29b1572355d20f145f21a0facd61 8d908b3a653a7e1bcf51644a68411f7d4c66ce55 Shadow8021 <gregoyaga@gmail.com> 1787084898 +0100	commit: splash
+8d908b3a653a7e1bcf51644a68411f7d4c66ce55 a4f928cfdbd276fa7b7a77f97e9c1ea54d1c65e4 Shadow8021 <gregoyaga@gmail.com> 1787084991 +0100	commit: splash
+a4f928cfdbd276fa7b7a77f97e9c1ea54d1c65e4 2223d693134a7e02d043024d68996197233881e2 Shadow8021 <gregoyaga@gmail.com> 1787085055 +0100	commit: splash
+2223d693134a7e02d043024d68996197233881e2 16ed54a83b5c203f233b7ccbf627946c0829a949 Shadow8021 <gregoyaga@gmail.com> 1787085073 +0100	commit: splash
