@@ -3,8 +3,8 @@ import tkinter as tk
 fenetre = tk.Tk()
 fenetre.geometry("230x300")
 fenetre.resizable(width=False,height=False)
-a=tk.Entry(fenetre,border=3)
-a.grid(column=0,row=0)
+a=tk.Entry(fenetre,border=3,width=36)
+a.grid(column=0,row=0,columnspan=3)
 
 def onClick():
     lab=tk.Label(fenetre, text=f"Vous avez saisie {a.get()}")
