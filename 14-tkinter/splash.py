@@ -13,3 +13,4 @@ def demarrer():
     fenetre.deiconify()
 splash.after(5000, demarrer)
 
+fenetre.mainloop()
