@@ -15,6 +15,18 @@ def onClick(nbr):
 
 def reset():
     a.delete(0, tk.END)
+
+def clacule():
+    op=a.get()
+    tab=op.split("+")
+    
+    for i in range(int(tab.count)):
+        print(i)
+
+
+    val1=int(tab[0])
+    val2=int(tab[1])
+    print(val1+val2)
     
     
 
@@ -31,7 +43,7 @@ btn0=tk.Button(fenetre,text="0",padx=20,pady=16, command= lambda: onClick(0))
 
 btnAd=tk.Button(fenetre,text="+",padx=20,pady=30, command= lambda: onClick("+"))
 
-btne=tk.Button(fenetre,text="=",padx=58,pady=11, command= lambda: onClick("="))
+btne=tk.Button(fenetre,text="=",padx=58,pady=11, command= lambda: clacule())
 btnc=tk.Button(fenetre,text="clear",padx=9,pady=16, command= lambda: reset())
 
 
