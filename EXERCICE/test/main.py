@@ -13,26 +13,26 @@ def onClick(nbr):
     a.delete(0, tk.END)
     a.insert(0,str(el)+str(nbr))
 
-
+def reset():
+    a.delete(0, tk.END)
+    
 
 def addFunc():
     global nombre1
     nombre1 = a.get()
     a.delete(0,tk.END)
 
-def reset():
-    a.delete(0, tk.END)
-    nombre1 =0
-    
 def clacule():
     nombre2=a.get()
     a.delete(0, tk.END)
     try:
         resultat= int(nombre1)+int(nombre2)
         a.insert(0,resultat)
+        
     except:
         a.insert(0, "Erreur de valeur")
 
+    
     
    
     
