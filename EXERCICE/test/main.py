@@ -22,16 +22,13 @@ def addFunc():
     a.delete(0,tk.END)
 
 def clacule():
-    op=a.get()
-    tab=op.split("+")
-    for i in range(int(tab.count)):
-        print(i)
+    nombre2=a.get()
+    a.delete(0, tk.END)
 
-
-    val1=int(tab[0])
-    val2=int(tab[1])
-    print(val1+val2)
+    resultat= int(nombre1)+int(nombre2)
+    a.insert(0,resultat)
     
+   
     
 
 btn9=tk.Button(fenetre,text="9",padx=20,pady=16,  command= lambda: onClick(9))
