@@ -9,10 +9,13 @@ lab=tk.Label(fenetre,text="")
 lab.grid(column=0,row=1)
 
 def onClick(nbr):
-    print(nbr)
     el=a.get()
     a.delete(0, tk.END)
     a.insert(0,str(el)+str(nbr))
+
+def reset():
+    a.delete(0, tk.END)
+    
     
 
 btn9=tk.Button(fenetre,text="9",padx=20,pady=16,  command= lambda: onClick(9))
@@ -29,7 +32,7 @@ btn0=tk.Button(fenetre,text="0",padx=20,pady=16, command= lambda: onClick(0))
 btnAd=tk.Button(fenetre,text="+",padx=20,pady=30, command= lambda: onClick("+"))
 
 btne=tk.Button(fenetre,text="=",padx=58,pady=11, command= lambda: onClick("="))
-btnc=tk.Button(fenetre,text="clear",padx=9,pady=16, command= lambda: a.cl)
+btnc=tk.Button(fenetre,text="clear",padx=9,pady=16, command= lambda: reset())
 
 
 btn9.grid(column=0,row=2)
