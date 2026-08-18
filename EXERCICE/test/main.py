@@ -28,7 +28,7 @@ btn0=tk.Button(fenetre,text="0",padx=20,pady=16, command= lambda: onClick(0))
 btnAd=tk.Button(fenetre,text="+",padx=20,pady=30, command= lambda: onClick("+"))
 
 btne=tk.Button(fenetre,text="=",padx=58,pady=11, command= lambda: onClick("="))
-btnc=tk.Button(fenetre,text="clear",padx=10,pady=16, command= lambda: a.cl)
+btnc=tk.Button(fenetre,text="clear",padx=9,pady=16, command= lambda: a.cl)
 
 
 btn9.grid(column=0,row=2)
