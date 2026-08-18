@@ -20,9 +20,6 @@ def addFunc():
     global nombre1
     nombre1 = a.get()
     a.delete(0,tk.END)
-    
-
-
 
 def clacule():
     op=a.get()
