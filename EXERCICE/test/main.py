@@ -16,6 +16,13 @@ def onClick(nbr):
 def reset():
     a.delete(0, tk.END)
 
+def addFunc():
+    global nombre1
+    nombre1 = a.get()
+    
+
+
+
 def clacule():
     op=a.get()
     tab=op.split("+")
@@ -41,7 +48,7 @@ btn2=tk.Button(fenetre,text="2",padx=20,pady=16, command= lambda: onClick(2))
 btn1=tk.Button(fenetre,text="1",padx=20,pady=16, command= lambda: onClick(1))
 btn0=tk.Button(fenetre,text="0",padx=20,pady=16, command= lambda: onClick(0))
 
-btnAd=tk.Button(fenetre,text="+",padx=20,pady=30, command= lambda: onClick("+"))
+btnAd=tk.Button(fenetre,text="+",padx=20,pady=30, command= lambda: addFunc())
 
 btne=tk.Button(fenetre,text="=",padx=58,pady=11, command= lambda: clacule())
 btnc=tk.Button(fenetre,text="clear",padx=9,pady=16, command= lambda: reset())
