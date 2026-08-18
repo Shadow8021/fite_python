@@ -19,6 +19,7 @@ def reset():
 def addFunc():
     global nombre1
     nombre1 = a.get()
+    a.delete(0,tk.END)
     
 
 
@@ -26,7 +27,6 @@ def addFunc():
 def clacule():
     op=a.get()
     tab=op.split("+")
-    
     for i in range(int(tab.count)):
         print(i)
 
