@@ -11,7 +11,8 @@ lab.grid(column=0,row=1)
 def onClick(nbr):
     print(nbr)
     el=a.get()
-    a.insert(0,nbr)
+    a.delete(0, tk.END)
+    a.insert(0,str(el)+str(nbr))
     
 
 btn9=tk.Button(fenetre,text="9",padx=20,pady=16,  command= lambda: onClick(9))
