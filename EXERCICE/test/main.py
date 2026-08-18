@@ -22,6 +22,11 @@ btn2=tk.Button(fenetre,text="2",padx=20,pady=16, command= lambda: onClick(2))
 btn1=tk.Button(fenetre,text="1",padx=20,pady=16, command= lambda: onClick(1))
 btn0=tk.Button(fenetre,text="0",padx=20,pady=16, command= lambda: onClick(0))
 
+btnAd=tk.Button(fenetre,text="+",padx=20,pady=23, command= lambda: onClick(0))
+
+btne=tk.Button(fenetre,text="=",padx=40,pady=12, command= lambda: onClick(0))
+btnc=tk.Button(fenetre,text="clear",padx=40,pady=12, command= lambda: onClick(0))
+
 
 btn9.grid(column=0,row=2)
 btn8.grid(column=1,row=2)
@@ -35,5 +40,8 @@ btn3.grid(column=0,row=4)
 btn2.grid(column=1,row=4)
 btn1.grid(column=2,row=4)
 
+btnAd.grid(column=0,row=5,rowspan=2)
+btne.grid(column=1,row=5,columnspan=2 )
+btnc.grid(column=1,row=6, columnspan=2 )
 
 fenetre.mainloop()
