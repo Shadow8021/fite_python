@@ -24,9 +24,12 @@ def addFunc():
 def clacule():
     nombre2=a.get()
     a.delete(0, tk.END)
+    try:
+        resultat= int(nombre1)+int(nombre2)
+        a.insert(0,resultat)
+    except:
+        a.insert(0, "Err de valeur")
 
-    resultat= int(nombre1)+int(nombre2)
-    a.insert(0,resultat)
     
    
     
