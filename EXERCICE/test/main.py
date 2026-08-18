@@ -7,9 +7,12 @@ a=tk.Entry(fenetre,border=3,width=36)
 a.grid(column=0,row=0,columnspan=3)
 lab=tk.Label(fenetre,text="")
 lab.grid(column=0,row=1)
+
 def onClick(nbr):
-    lab=tk.Label(fenetre, text=f"Vous avez saisie {a.get()}")
-    lab.pack()
+    print(nbr)
+    el=a.get()
+    a.insert(0,nbr)
+    
 
 btn9=tk.Button(fenetre,text="9",padx=20,pady=16,  command= lambda: onClick(9))
 btn8=tk.Button(fenetre,text="8",padx=20,pady=16, command= lambda: onClick(8))
@@ -22,10 +25,10 @@ btn2=tk.Button(fenetre,text="2",padx=20,pady=16, command= lambda: onClick(2))
 btn1=tk.Button(fenetre,text="1",padx=20,pady=16, command= lambda: onClick(1))
 btn0=tk.Button(fenetre,text="0",padx=20,pady=16, command= lambda: onClick(0))
 
-btnAd=tk.Button(fenetre,text="+",padx=20,pady=30, command= lambda: onClick(0))
+btnAd=tk.Button(fenetre,text="+",padx=20,pady=30, command= lambda: onClick("+"))
 
-btne=tk.Button(fenetre,text="=",padx=58,pady=11, command= lambda: onClick(0))
-btnc=tk.Button(fenetre,text="clear",padx=46,pady=11, command= lambda: onClick(0))
+btne=tk.Button(fenetre,text="=",padx=58,pady=11, command= lambda: onClick("="))
+btnc=tk.Button(fenetre,text="clear",padx=46,pady=11, command= lambda: a.cl)
 
 
 btn9.grid(column=0,row=2)
