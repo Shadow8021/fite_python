@@ -49,7 +49,6 @@ con.commit()
 #cursor.executemany("insert into persons values(?,?,?,?)",clients)
 con.commit()
 taxe=0.2
-#nouveau prix de chaque produit
-for produit in produits:
-    cursor.execute("update produits set prix=prix+(prix*?) where id=?", (taxe, produit[0]))
+#nouveau prix de chaque produit sans utiliser la variable produits
+cursor.executemany("update produits set prix=prix+(prix*?)",[(taxe)])
 con.commit()
