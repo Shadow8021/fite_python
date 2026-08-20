@@ -11,6 +11,9 @@ def rafraichir():
     cursor.execute('SELECT * FROM contacts')
     for ligne in cursor.fetchall():
         tableau.insert('',tk.END,values=ligne)
+
+
+        
 #creation des tables
 cursor.execute('''CREATE TABLE IF NOT EXISTS contacts(
         id INTEGER PRIMARY KEY AUTOINCREMENT,
