@@ -13,7 +13,7 @@ def rafraichir():
         tableau.insert('',tk.END,values=ligne)
 
 
-        
+
 #creation des tables
 cursor.execute('''CREATE TABLE IF NOT EXISTS contacts(
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -41,11 +41,15 @@ tableau.heading('nom',text="NOM")
 tableau.heading('telephone',text="TELEPHONE")
 tableau.pack()
 
-form=tk.Frame(fenetre).pack()
-tk.Label(form,text="NOM(s):").pack()
-nom=tk.Entry(form).pack()
-tk.Label(form,text="TEL:").pack()
-tel=tk.Entry(form).pack()
+form=tk.Frame(fenetre)
+form.pack(pady=20)
+nom_lab=tk.Label(form,text="NOM(s):")
+nom_lab.grid(column=0,row=0)
+nom=tk.Entry(form).grid(column=1,row=0)
+
+pnom_lbl=tk.Label(form,text="TEL:")
+pnom_lbl.grid(column=0,row=1)
+tel=tk.Entry(form).grid(column=1,row=1)
 
 
 
