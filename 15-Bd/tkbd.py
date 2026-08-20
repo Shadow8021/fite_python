@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk,messagebox
 import sqlite3
 #connexion à la bd
-conn=sqlite3.connect("../15-Bd/contact.db")
+conn=sqlite3.connect("./15-Bd/contact.db")
 cursor=conn.cursor()
 
 #creation des tables
@@ -12,14 +12,6 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS contacts(
         telephone INTEGER NOT NULL
 
                )''')
-
-
-
-
-
-
-
-
 
 fenetre=tk.Tk()
 fenetre.withdraw()
@@ -40,7 +32,7 @@ tableau.heading('nom',text="NOM")
 tableau.heading('telephone',text="TELEPHONE")
 tableau.pack()
 
-form=tk.Frame(fenetre).place(x=200,y=300)
+form=tk.Frame(fenetre).pack()
 tk.Label(form,text="NOM(s):").pack()
 nom=tk.Entry(form).pack()
 tk.Label(form,text="TEL:").pack()
