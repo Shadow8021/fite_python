@@ -13,14 +13,40 @@ def demarrer():
     fenetre.deiconify()
 splash.after(5000, demarrer)
 
-
-
-
-
 tableau=ttk.Treeview(fenetre,columns=('id','nom','telephone'),show='headings')
 tableau.heading('id',text="ID")
 tableau.heading('nom',text="NOM")
 tableau.heading('telephone',text="TELEPHONE")
 tableau.pack()
+
+form=tk.Frame(fenetre).place(x=200,y=300)
+tk.Label(form,text="NOM(s):").pack()
+nom=tk.Entry(form).pack()
+tk.Label(form,text="TEL:").pack()
+tel=tk.Entry(form).pack()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 fenetre.mainloop()
