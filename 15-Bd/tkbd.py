@@ -2,8 +2,24 @@ import tkinter as tk
 from tkinter import ttk,messagebox
 import sqlite3
 #connexion à la bd
-conn=sqlite3.connect("tableau.bd")
+conn=sqlite3.connect("../15-Bd/contact.db")
 cursor=conn.cursor()
+
+#creation des tables
+cursor.execute('''CREATE TABLE IF NOT EXISTS contacts(
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        nom TEXT NOT NULL,
+        telephone INTEGER NOT NULL
+
+               )''')
+
+
+
+
+
+
+
+
 
 fenetre=tk.Tk()
 fenetre.withdraw()
