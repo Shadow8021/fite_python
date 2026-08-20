@@ -4,7 +4,13 @@ import sqlite3
 #connexion à la bd
 conn=sqlite3.connect("./15-Bd/contact.db")
 cursor=conn.cursor()
-
+#fonction rafraichir
+def rafraichir():
+    for ligne in tableau.get_children():
+        tableau.delete(ligne)
+    cursor.execute('SELECT * FROM contacts')
+    for ligne in cursor.fetchall():
+        tableau.insert('',tk.END,values=ligne)
 #creation des tables
 cursor.execute('''CREATE TABLE IF NOT EXISTS contacts(
         id INTEGER PRIMARY KEY AUTOINCREMENT,
