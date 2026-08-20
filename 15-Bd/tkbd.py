@@ -24,6 +24,10 @@ def Ajouter():
         if not numero.isdigit():
             messagebox.showerror("Telephone","Veuillez inserer un vrai numero")
 
+    print(nom,numero)
+    cursor.execute('INSERT INTO contacts(nom,telephone) VALUES(?,?) ',(nom,numero))
+    conn.commit()
+    rafraichir()
 
 #creation des tables
 cursor.execute('''CREATE TABLE IF NOT EXISTS contacts(
@@ -44,6 +48,7 @@ ttk.Label(splash,text="Bienvenue").place(x=300,y=100)
 def demarrer():
     splash.destroy()
     fenetre.deiconify()
+    rafraichir()
 splash.after(5000, demarrer)
 
 tableau=ttk.Treeview(fenetre,columns=('id','nom','telephone'),show='headings')
