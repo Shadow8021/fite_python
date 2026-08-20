@@ -1,5 +1,10 @@
 import tkinter as tk
 from tkinter import ttk,messagebox
+import sqlite3
+#connexion à la bd
+conn=sqlite3.connect("tableau.bd")
+cursor=conn.cursor()
+
 fenetre=tk.Tk()
 fenetre.withdraw()
 splash=tk.Toplevel(fenetre)
