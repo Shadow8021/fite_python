@@ -4,6 +4,9 @@ import sqlite3
 #connexion à la bd
 conn=sqlite3.connect("./15-Bd/contact.db")
 cursor=conn.cursor()
+
+
+
 #fonction rafraichir
 def rafraichir():
     for ligne in tableau.get_children():
@@ -17,8 +20,9 @@ def Ajouter():
     numero=tel_champ.get().strip()
     if not nom or not numero:
         messagebox.showerror("Erreur","Veuillez remplir tous les champs")
-    if not numero.isdigit():
-        messagebox.showerror("Telephone","Veuillez inserer un vrai numero")
+    else:
+        if not numero.isdigit():
+            messagebox.showerror("Telephone","Veuillez inserer un vrai numero")
 
 
 #creation des tables
@@ -52,16 +56,18 @@ form=tk.Frame(fenetre)
 form.pack(pady=20)
 nom_lab=tk.Label(form,text="NOM(s):")
 nom_lab.grid(column=0,row=0)
-nom_champ=tk.Entry(form).grid(column=1,row=0)
+nom_champ=tk.Entry(form)
+nom_champ.grid(column=1,row=0)
 
 tel_lbl=tk.Label(form,text="TEL:")
 tel_lbl.grid(column=0,row=1)
-tel_champ=tk.Entry(form).grid(column=1,row=1)
-
+tel_champ=tk.Entry(form)
+tel_champ.grid(column=1,row=1)
 
 
 #buttons
-tk.Button(form,text="Ajouter").grid()
+
+tk.Button(form,text="Ajouter",command=Ajouter).grid()
 
 
 
