@@ -5,6 +5,7 @@ class DataBase:
     def _init(self):
         self.con =sqlite3.connect('../exoPOO/poo.db')
         self.cursor=self.con.cursor()
+        self.create_table()
 
     def create_table(self):
         self.cursor.execute("""create table if not exists etudiants (
@@ -18,7 +19,6 @@ class DataBase:
         
         )""")
         self.con.commit()
-
 
     def insert_stuent(self, datas):
         self.cursor.execute("""insert into etudiants(
@@ -45,3 +45,11 @@ class DataBase:
                                     ,date_inscription where id=?"""
         self.cursor.execute(requete,(datas,id))
         self.con.commit()
+
+    def Delete(self,id):
+        req="delete * from etudiants where id=?"
+        self.cursor.execute(req,id)
+        self.con.commit()
+
+    def ferme(self):
+        self.con.close
