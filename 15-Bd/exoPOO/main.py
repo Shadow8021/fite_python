@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 #creation de la class database
 class DataBase:
-    def _init(self):
+    def __init__(self):
         self.con =sqlite3.connect('../exoPOO/poo.db')
         self.cursor=self.con.cursor()
         self.create_table()
@@ -56,3 +56,12 @@ class DataBase:
 
     def ferme(self):
         self.con.close
+
+
+
+
+#class Inscription
+
+class Inscription:
+    def __init__(self):
+        pass
