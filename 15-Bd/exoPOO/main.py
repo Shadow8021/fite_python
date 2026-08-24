@@ -64,4 +64,17 @@ class DataBase:
 
 class Inscription:
     def __init__(self):
-        pass
+        #initial database
+        self.db=DataBase()
+        #data base visruelle
+        self.photo_dir="student_images"
+        if not os.path.exists(self.photo_dir):
+            os.makedirs(self.photo_dir)
+        #initial tkinter
+        self.fen=tk.Tk()
+        self.fen.title("Inscription des etudiants")
+        self.fen.geometry("800x500")
+        self.fen.configure(bd="grey")
+
+
+        self.fen.mainloop()
