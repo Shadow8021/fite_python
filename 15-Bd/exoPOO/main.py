@@ -28,7 +28,15 @@ class DataBase:
 
 
     def get_All(self):
-        return(self.cursor.execute("select * from etudiants"))
+        self.cursor.execute("select * from etudiants")
+        return(self.cursor.fetchall())
 
     def getById(self,id):
-        return(self.cursor.execute("select * from etudiants where id=?",(id)))
+        self.cursor.execute("select * from etudiants where id=?",(id))
+        return (self.cursor.fetchone())
+
+    def update (self,id):
+        self.cursor.execute("update ")
+
+
+
