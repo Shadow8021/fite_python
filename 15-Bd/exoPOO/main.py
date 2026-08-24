@@ -97,3 +97,4 @@ class Inscription:
         conteneur_gauch=tk.LabelFrame(conteneur_principal, text="PERTIE INSCRIPTION",
                                  font=("liberation sans",20,"bold"),
                                  )
+
