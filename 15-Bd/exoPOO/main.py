@@ -81,5 +81,19 @@ class Inscription:
         self.fen.geometry("800x500")
         self.fen.configure(bd="grey")
 
-
+        self.generation_interface()
         self.fen.mainloop()
+
+    def generation_interface(self):
+        entete=tk.Label(text="SYSTEME D'INSCRIPTION FITE",font=("liberation sans",20,"bold"),
+                        fg='white',bg="green",pady=10)
+        entete.pack(fill="x")
+
+        #conteneur principal
+        conteneur_principal= tk.Frame(self.fen,bg='grey')
+        conteneur_principal.pack(padx=10,pady=10,fill="both",expand=True)
+
+        #conteneur gauche
+        conteneur_gauch=tk.LabelFrame(conteneur_principal, text="PERTIE INSCRIPTION",
+                                 font=("liberation sans",20,"bold"),
+                                 )
