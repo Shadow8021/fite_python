@@ -70,6 +70,11 @@ class Inscription:
         self.photo_dir="student_images"
         if not os.path.exists(self.photo_dir):
             os.makedirs(self.photo_dir)
+        #elements
+        self.photo_path=None
+        self.photo_image=None
+        self.student_actuel=None
+        self.tk_image=None
         #initial tkinter
         self.fen=tk.Tk()
         self.fen.title("Inscription des etudiants")
