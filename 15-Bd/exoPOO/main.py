@@ -131,5 +131,13 @@ class Inscription:
         self.classe=tk.StringVar()
         self.classe_combo=ttk.Combobox(conteneur_gauch,textvariable=self.classe,values=["L1","L2","L3"])
         self.classe_combo.grid(row=5,column=1)
+        self.classe_combo.current(0)
+        #section btn
+        conteneur_btn=tk.Frame(conteneur_gauch)
+        conteneur_btn.grid(pady=10)
+        tk.Button(conteneur_btn,text="Ajouter").pack(side='left',padx=10)
+        tk.Button(conteneur_btn,text="Modifier").pack(side='left',padx=10)
+        tk.Button(conteneur_btn,text="Supprimer").pack(side='left',padx=10)
+        tk.Button(conteneur_btn,text="Raffraichir").pack(side='left',padx=10)
 
 app=Inscription()
