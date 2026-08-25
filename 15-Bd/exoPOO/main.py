@@ -127,7 +127,7 @@ class Inscription:
         tk.Radiobutton(conteneur_sexe,text="Feminin",variable=self.sexe,value="Femini").pack(side="left",padx=10)
         #classe
         tk.Label(conteneur_gauch,text="Classe: ").grid(row=5,column=0,padx=5)
-        
+
         self.classe=tk.StringVar()
         self.classe_combo=ttk.Combobox(conteneur_gauch,textvariable=self.classe,values=["L1","L2","L3"])
         self.classe_combo.grid(row=5,column=1)
