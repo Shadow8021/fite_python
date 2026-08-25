@@ -6,19 +6,19 @@ import os
 #creation de la class database
 class DataBase:
     def __init__(self):
-        self.con =sqlite3.connect('../exoPOO/poo.db')
+        self.con =sqlite3.connect('./poo.db')
         self.cursor=self.con.cursor()
         self.create_table()
 
     def create_table(self):
         self.cursor.execute("""create table if not exists etudiants (
-                    id integer primary key autoincrement,
+                    id integer primary key AUTOINCREMENT,
                     nom text not null,
                     telephone text not null,
                     sexe text,
                     classe text not null,
                     photo_path text ,
-                    date_inscription text not null,
+                    date_inscription text not null
         
         )""")
         self.con.commit()
@@ -79,7 +79,7 @@ class Inscription:
         self.fen=tk.Tk()
         self.fen.title("Inscription des etudiants")
         self.fen.geometry("800x500")
-        self.fen.configure(bd="grey")
+        self.fen.configure(bg="grey")
 
         self.generation_interface()
         self.fen.mainloop()
@@ -97,4 +97,7 @@ class Inscription:
         conteneur_gauch=tk.LabelFrame(conteneur_principal, text="PERTIE INSCRIPTION",
                                  font=("liberation sans",20,"bold"),
                                  )
+        conteneur_gauch.pack(side='left',fill="both",expand=True)
 
+
+app=Inscription()
