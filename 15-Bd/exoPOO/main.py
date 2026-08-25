@@ -103,7 +103,7 @@ class Inscription:
         conteneur_photo=tk.Frame(conteneur_gauch)
         conteneur_photo.grid(row=0,column=1,padx=5,pady=5)
         self.photo_image=tk.Label(conteneur_photo,
-                                  text="Cliquer pour ajouter",width=15,height=15,bd=3,bg="grey",padx=20)
+                                  text="Cliquer pour ajouter",width=15,height=15,bd=1,bg="grey",padx=20)
         self.photo_image.pack(side='left')
         self.photo_image.bind('<Button-1>',print("hello"))
 
@@ -117,9 +117,14 @@ class Inscription:
         self.nom=tk.Entry(conteneur_gauch).grid(row=1,column=1)
 
         tk.Label(conteneur_gauch,text="Téléphone:").grid(row=2,column=0,pady=5)
-        self.prenom=tk.Entry(conteneur_gauch).grid(row=2,column=1,columnspan=2,pady=5)
-
-        tk.Label(conteneur_gauch,text="Nom(s):").grid(row=1,column=0,padx=5)
-        self.sexe=tk.Radiobutton(conteneur_gauch,text="Home").grid(row=3,column=0,pady=5)
-        
+        self.phone=tk.Entry(conteneur_gauch).grid(row=2,column=1,columnspan=2,pady=5)
+        #conteneur sexe
+        tk.Label(conteneur_gauch,text="Sexe: ").grid(row=4,column=0,padx=5)
+        conteneur_sexe=tk.Frame(conteneur_gauch)
+        conteneur_sexe.grid(row=4,column=1,padx=5,pady="5")
+        self.sexe=tk.StringVar(value="")
+        tk.Radiobutton(conteneur_sexe,text="Home" ,variable=self.sexe,value="Masculin").pack(side='left',padx=10)
+        tk.Radiobutton(conteneur_sexe,text="Feminin",variable=self.sexe,value="Femini").pack(side="left",padx=10)
+        #classe
+        tk.Label(conteneur_gauch,text="Classe: ").grid(row=5,column=0,padx=5)
 app=Inscription()
