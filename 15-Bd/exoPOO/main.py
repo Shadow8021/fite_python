@@ -113,6 +113,13 @@ class Inscription:
         tk.Button(btn_photo,text="Choisir la photo", bg="blue",fg="grey").pack()
         tk.Button(btn_photo,text="supprimer", bg="red", fg='white').pack()
         #formulaire
+        tk.Label(conteneur_gauch,text="Nom:").grid(row=1,column=0,padx=5)
+        self.nom=tk.Entry(conteneur_gauch).grid(row=1,column=1)
+
+        tk.Label(conteneur_gauch,text="Téléphone:").grid(row=2,column=0,pady=5)
+        self.prenom=tk.Entry(conteneur_gauch).grid(row=2,column=1,columnspan=2,pady=5)
+
         tk.Label(conteneur_gauch,text="Nom(s):").grid(row=1,column=0,padx=5)
-        self.nom=tk.Entry(conteneur_gauch).grid(row=1,column=1,columnspan=2)
+        self.sexe=tk.Radiobutton(conteneur_gauch,text="Home").grid(row=3,column=0,pady=5)
+        
 app=Inscription()
