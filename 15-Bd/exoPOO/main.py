@@ -6,7 +6,7 @@ import os
 #creation de la class database
 class DataBase:
     def __init__(self):
-        self.con =sqlite3.connect('./poo.db')
+        self.con =sqlite3.connect('./15-Bd/poo.db')
         self.cursor=self.con.cursor()
         self.create_table()
 
@@ -98,12 +98,21 @@ class Inscription:
                                  font=("liberation sans",20,"bold"),
                                  )
         conteneur_gauch.pack(side='left',fill="both",expand=True)
-        tk.Label(conteneur_gauch,text="Photo",font=("liberation sans",20,"bold")).grid(row=0,column=0,padx=5,pady=5)
+        tk.Label(conteneur_gauch,text="Photo :",font=("Liberation Mono",20,"bold")).grid(row=0,column=0,padx=5,pady=5)
+        #conteneur image
         conteneur_photo=tk.Frame(conteneur_gauch)
         conteneur_photo.grid(row=0,column=1,padx=5,pady=5)
         self.photo_image=tk.Label(conteneur_photo,
-                                  text="Cliquer pour ajouter",width=15,height=15,bd=1)
+                                  text="Cliquer pour ajouter",width=15,height=15,bd=3,bg="grey",padx=20)
         self.photo_image.pack(side='left')
-        self.photo_image.bind('<Button-1>')
+        self.photo_image.bind('<Button-1>',print("hello"))
 
+        btn_photo=tk.Frame(conteneur_photo)
+        btn_photo.pack(side='left',padx=5)
+        #btn
+        tk.Button(btn_photo,text="Choisir la photo", bg="blue",fg="grey").pack()
+        tk.Button(btn_photo,text="supprimer", bg="red", fg='white').pack()
+        #formulaire
+        tk.Label(conteneur_gauch,text="Nom(s):").grid(row=1,column=0,padx=5)
+        self.nom=tk.Entry(conteneur_gauch).grid(row=1,column=1,columnspan=2)
 app=Inscription()
