@@ -98,6 +98,12 @@ class Inscription:
                                  font=("liberation sans",20,"bold"),
                                  )
         conteneur_gauch.pack(side='left',fill="both",expand=True)
-
+        tk.Label(conteneur_gauch,text="Photo",font=("liberation sans",20,"bold")).grid(row=0,column=0,padx=5,pady=5)
+        conteneur_photo=tk.Frame(conteneur_gauch)
+        conteneur_photo.grid(row=0,column=1,padx=5,pady=5)
+        self.photo_image=tk.Label(conteneur_photo,
+                                  text="Cliquer pour ajouter",width=15,height=15,bd=1)
+        self.photo_image.pack(side='left')
+        self.photo_image.bind('<Button-1>')
 
 app=Inscription()
