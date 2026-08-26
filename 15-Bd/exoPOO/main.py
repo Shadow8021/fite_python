@@ -169,8 +169,8 @@ class Inscription:
         self.tableau.pack(side="left",fill="both",expand=True,pady=5)
         #section detail
         detail_conteneur=tk.LabelFrame(conteneur_droit,text="INFORMATIONS",font=("DejaVu sans",10,"bold"),width=200,height=80)
-        detail_conteneur.pack(side="top",fill="x",expand=True)
-        detail=tk.Frame(detail_conteneur,pady=8,padx=8,bd=8)
+        detail_conteneur.pack(side="top",fill="both",padx=5)
+        detail=tk.Frame(detail_conteneur,pady=15,padx=40,bd=8)
         detail.pack(fill="both")
 
         self.detail_photo=tk.Label(detail,text="IMAGE",font=("DejaVu sans",10,"bold"),width=10,height=4,bd=1)
