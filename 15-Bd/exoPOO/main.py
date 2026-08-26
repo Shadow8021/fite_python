@@ -1,9 +1,10 @@
 #!/usr/bin/python
 import sqlite3
 import tkinter as tk
-from tkinter import messagebox,ttk
+from tkinter import messagebox,ttk,filedialog
 from datetime import datetime
 import os
+
 #creation de la class database
 class DataBase:
     def __init__(self):
@@ -168,16 +169,36 @@ class Inscription:
         self.tableau.pack(side="left",fill="both",expand=True,pady=5)
         #section detail
         detail_conteneur=tk.LabelFrame(conteneur_droit,text="INFORMATIONS",font=("DejaVu sans",10,"bold"),width=200,height=80)
-        detail_conteneur.pack(side="right",fill="y")
-        detail=tk.Frame(detail_conteneur,width=100,height=80,bg='red',pady=8,padx=8,bd=8)
+        detail_conteneur.pack(side="top",fill="y")
+        detail=tk.Frame(detail_conteneur,pady=8,padx=8,bd=8)
         detail.pack(fill="both")
+
         self.detail_photo=tk.Label(detail,text="IMAGE",font=("DejaVu sans",10,"bold"),width=10,height=4,bd=1)
         self.detail_photo.pack(side="right")
+
         self.detail_info=tk.Label(detail_conteneur,text="Details de l'etudiant")
         self.detail_info.pack(side="right",fill="both",pady=5)
-        self.total_etudiant=tk.Label(detail,text="Total Iscrits")
+
+        self.total_etudiant=tk.Label(conteneur_droit,text="Total Iscrits")
         self.total_etudiant.pack(pady=8)
-       
+
+        def choisir_image(self):
+            ficher_path=filedialog.askopenfilename(
+                title="choisir une image",
+                filetypes=[
+                    ("Image PNG","*.png"),
+                    ("image GIF","*.gig")
+                ],
+            )
+            if ficher_path:
+                self.photo_path=ficher_path
+                self.lire_image=(ficher_path,self.label_image)
+
+        def lire_image(self,path,label,dimenssion=(120,100)):
+            img =tk.PhotoImage(file=path)
+
+
+
 
 
 
