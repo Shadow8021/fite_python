@@ -148,7 +148,7 @@ class Inscription:
         conteneur_droit=tk.LabelFrame(conteneur_principal, text="LISTE DES INSCRITS",font=("DejaVu Sans",10,"bold"))
         conteneur_droit.pack(side="right",padx=5,fill="both",expand=True)
         #tableaux
-        colonnes=("ID","NOM","TELEPHONE","CLASSE")
+        colonnes=("ID","NOM","PRENOM","TELEPHONE","CLASSE")
         self.tableau=ttk.Treeview(conteneur_droit,columns=colonnes,show='headings',height=10)
 
         for col in colonnes:
@@ -156,16 +156,29 @@ class Inscription:
 
         self.tableau.column("ID",width=40)
         self.tableau.column("NOM",width=100)
+        self.tableau.column("PRENOM",width=80)
         self.tableau.column("TELEPHONE",width=100)
-        self.tableau.column("CLASSE",width=100)
+        self.tableau.column("CLASSE",width=80)
 
         #scrolbar 
-        scrollBar=ttk.Scrollbar(conteneur_droit,orient='vertical',command=self.tableau.yview)
+        scrollBar=ttk.Scrollbar(self.tableau,orient='vertical',command=self.tableau.yview)
         self.tableau.configure(yscrollcommand=scrollBar.set)
         scrollBar.pack(side="right",fill='y',pady=5)
 
-
-        
         self.tableau.pack(side="left",fill="both",expand=True,pady=5)
+        #section detail
+        detail_conteneur=tk.LabelFrame(conteneur_droit,text="INFORMATIONS",font=("DejaVu sans",10,"bold"),width=200,height=80)
+        detail_conteneur.pack(side="right",fill="y")
+        detail=tk.Frame(detail_conteneur,width=100,height=80,bg='red',pady=8,padx=8,bd=8)
+        detail.pack(fill="both")
+        self.detail_photo=tk.Label(detail,text="IMAGE",font=("DejaVu sans",10,"bold"),width=10,height=4,bd=1)
+        self.detail_photo.pack(side="right")
+        self.detail_info=tk.Label(detail_conteneur,text="Details de l'etudiant")
+        self.detail_info.pack(side="right",fill="both",pady=5)
+        self.total_etudiant=tk.Label(detail,text="Total Iscrits")
+        self.total_etudiant.pack(pady=8)
+       
+
+
 
 app=Inscription()
