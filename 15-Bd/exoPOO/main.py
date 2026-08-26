@@ -15,6 +15,7 @@ class DataBase:
         self.cursor.execute("""create table if not exists etudiants (
                     id integer primary key AUTOINCREMENT,
                     nom text not null,
+                    prnom text not null,
                     telephone text not null,
                     sexe text,
                     classe text not null,
@@ -116,9 +117,10 @@ class Inscription:
         #formulaire
         tk.Label(conteneur_gauch,text="Nom:",font=("DejaVu Sans",10,"")).grid(row=1,column=0,padx=5)
         self.nom=tk.Entry(conteneur_gauch,width=25).grid(row=1,column=1)
-
-        tk.Label(conteneur_gauch,text="Téléphone:",font=("DejaVu Sans",10,"")).grid(row=2,column=0,pady=5)
-        self.phone=tk.Entry(conteneur_gauch,width=25).grid(row=2,column=1,pady=5)
+        tk.Label(conteneur_gauch,text="Prenom:",font=("DejaVu Sans",10,"")).grid(row=2,column=0,padx=5)
+        self.prenom=tk.Entry(conteneur_gauch,width=25).grid(row=2,column=1,pady=5)
+        tk.Label(conteneur_gauch,text="Téléphone:",font=("DejaVu Sans",10,"")).grid(row=3,column=0,pady=5)
+        self.phone=tk.Entry(conteneur_gauch,width=25).grid(row=3,column=1)
         #conteneur sexe
         tk.Label(conteneur_gauch,text="Sexe: ",font=("DejaVu Sans",10,"")).grid(row=4,column=0,padx=5)
         conteneur_sexe=tk.Frame(conteneur_gauch)
@@ -140,5 +142,30 @@ class Inscription:
         tk.Button(conteneur_btn,text="Modifier",bg="blue",fg="white").pack(side='left',padx=10)
         tk.Button(conteneur_btn,text="Supprimer",bg="red",fg="white").pack(side='left',padx=10)
         tk.Button(conteneur_btn,text="Raffraichir").pack(side='left',padx=10)
+
+
+        #conteneur droit
+        conteneur_droit=tk.LabelFrame(conteneur_principal, text="LISTE DES INSCRITS",font=("DejaVu Sans",10,"bold"))
+        conteneur_droit.pack(side="right",padx=5,fill="both",expand=True)
+        #tableaux
+        colonnes=("ID","NOM","TELEPHONE","CLASSE")
+        self.tableau=ttk.Treeview(conteneur_droit,columns=colonnes,show='headings',height=10)
+
+        for col in colonnes:
+                self.tableau.heading(col,text=col)
+
+        self.tableau.column("ID",width=40)
+        self.tableau.column("NOM",width=100)
+        self.tableau.column("TELEPHONE",width=100)
+        self.tableau.column("CLASSE",width=100)
+
+        #scrolbar 
+        scrollBar=ttk.Scrollbar(conteneur_droit,orient='vertical',command=self.tableau.yview)
+        self.tableau.configure(yscrollcommand=scrollBar.set)
+        scrollBar.pack(side="right",fill='y',pady=5)
+
+
+        
+        self.tableau.pack(side="left",fill="both",expand=True,pady=5)
 
 app=Inscription()
