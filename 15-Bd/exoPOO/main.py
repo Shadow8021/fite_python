@@ -86,7 +86,7 @@ class Inscription:
         self.fen.mainloop()
 
     def generation_interface(self):
-        entete=tk.Label(text="SYSTEME D'INSCRIPTION FITE",font=("liberation sans",20,"bold"),
+        entete=tk.Label(text="SYSTEME D'INSCRIPTION FITE",font=("DejaVu Sans",20,"bold"),
                         fg='white',bg="green",pady=10)
         entete.pack(fill="x")
 
@@ -96,10 +96,10 @@ class Inscription:
 
         #conteneur gauche
         conteneur_gauch=tk.LabelFrame(conteneur_principal, text="PERTIE INSCRIPTION",
-                                 font=("liberation sans",20,"bold"),
+                                 font=("DejaVu Sans",10,"bold"),
                                  )
         conteneur_gauch.pack(side='left',fill="both",expand=True)
-        tk.Label(conteneur_gauch,text="Photo :",font=("Liberation Mono",20,"bold")).grid(row=0,column=0,padx=5,pady=5)
+        tk.Label(conteneur_gauch,text="Photo :",font=("DejaVu Sans",10,"bold")).grid(row=0,column=0,padx=5,pady=5)
         #conteneur image
         conteneur_photo=tk.Frame(conteneur_gauch)
         conteneur_photo.grid(row=0,column=1,padx=5,pady=5)
