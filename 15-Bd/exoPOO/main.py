@@ -203,6 +203,8 @@ class Inscription:
                     facteur_x=max(1,img_width//dimenssion[0])
                     facteur_y=max(1,img_height//dimenssion[1])
                     facteur=max(facteur_x,facteur_y)
+                    img=img.subsample(facteur,facteur)
+                    self.tk_image=img
             except:
                 print()
 
