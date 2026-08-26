@@ -89,7 +89,7 @@ class Inscription:
 
     def generation_interface(self):
         entete=tk.Label(text="SYSTEME D'INSCRIPTION FITE",font=("DejaVu Sans",20,"bold"),
-                        fg='white',bg="green",pady=10)
+                        fg='white',bg="blue",pady=10)
         entete.pack(fill="x")
 
         #conteneur principal

@@ -399,35 +399,15 @@ class Inscription:
             show="headings"
         )
 
-        self.table.heading(
-            "id",
-            text="ID"
-        )
 
-        self.table.heading(
-            "nom",
-            text="Nom"
-        )
+       
+        for el in colonnes:
+            self.table.heading(
+                        el,
+                        text=el
+                    )
+        
 
-        self.table.heading(
-            "telephone",
-            text="Téléphone"
-        )
-
-        self.table.heading(
-            "sexe",
-            text="Sexe"
-        )
-
-        self.table.heading(
-            "classe",
-            text="Classe"
-        )
-
-        self.table.heading(
-            "date",
-            text="Date"
-        )
 
         self.table.pack(
             fill="both",
