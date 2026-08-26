@@ -1,4 +1,4 @@
-"/usr/bin/python"
+#!/usr/bin/python
 import sqlite3
 import tkinter as tk
 from tkinter import messagebox,ttk
@@ -111,7 +111,7 @@ class Inscription:
         btn_photo=tk.Frame(conteneur_photo)
         btn_photo.pack(side='left',padx=5)
         #btn
-        tk.Button(btn_photo,text="Choisir la photo", bg="blue",fg="grey").pack()
+        tk.Button(btn_photo,text="Choisir la photo", bg="blue",fg="white").pack()
         tk.Button(btn_photo,text="supprimer", bg="red", fg='white').pack()
         #formulaire
         tk.Label(conteneur_gauch,text="Nom:").grid(row=1,column=0,padx=5)
