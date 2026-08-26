@@ -115,10 +115,10 @@ class Inscription:
         tk.Button(btn_photo,text="supprimer", bg="red", fg='white').pack()
         #formulaire
         tk.Label(conteneur_gauch,text="Nom:").grid(row=1,column=0,padx=5)
-        self.nom=tk.Entry(conteneur_gauch).grid(row=1,column=1)
+        self.nom=tk.Entry(conteneur_gauch,width=25).grid(row=1,column=1)
 
         tk.Label(conteneur_gauch,text="Téléphone:").grid(row=2,column=0,pady=5)
-        self.phone=tk.Entry(conteneur_gauch).grid(row=2,column=1,columnspan=2,pady=5)
+        self.phone=tk.Entry(conteneur_gauch,width=25).grid(row=2,column=1,pady=5)
         #conteneur sexe
         tk.Label(conteneur_gauch,text="Sexe: ").grid(row=4,column=0,padx=5)
         conteneur_sexe=tk.Frame(conteneur_gauch)
@@ -130,15 +130,15 @@ class Inscription:
         tk.Label(conteneur_gauch,text="Classe: ").grid(row=5,column=0,padx=5)
 
         self.classe=tk.StringVar()
-        self.classe_combo=ttk.Combobox(conteneur_gauch,textvariable=self.classe,values=["L1","L2","L3"])
+        self.classe_combo=ttk.Combobox(conteneur_gauch,textvariable=self.classe,values=["L1","L2","L3"],width=23)
         self.classe_combo.grid(row=5,column=1)
         self.classe_combo.current(0)
         #section btn
-        conteneur_btn=tk.Frame(conteneur_gauch)
-        conteneur_btn.grid(pady=10)
-        tk.Button(conteneur_btn,text="Ajouter").pack(side='left',padx=10)
-        tk.Button(conteneur_btn,text="Modifier").pack(side='left',padx=10)
-        tk.Button(conteneur_btn,text="Supprimer").pack(side='left',padx=10)
+        conteneur_btn=tk.Frame(conteneur_gauch,pady=10)
+        conteneur_btn.grid(columnspan=3)
+        tk.Button(conteneur_btn,text="Ajouter",bg="green",fg="white").pack(side='left',padx=10)
+        tk.Button(conteneur_btn,text="Modifier",bg="blue",fg="white").pack(side='left',padx=10)
+        tk.Button(conteneur_btn,text="Supprimer",bg="red",fg="white").pack(side='left',padx=10)
         tk.Button(conteneur_btn,text="Raffraichir").pack(side='left',padx=10)
 
 app=Inscription()
