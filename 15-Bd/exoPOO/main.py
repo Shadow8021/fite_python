@@ -159,7 +159,7 @@ class Inscription:
         self.tableau.column("NOM",width=100)
         self.tableau.column("PRENOM",width=80)
         self.tableau.column("TELEPHONE",width=100)
-        self.tableau.column("CLASSE",width=80)
+        self.tableau.column("CLASSE",width=10)
 
         #scrolbar 
         scrollBar=ttk.Scrollbar(self.tableau,orient='vertical',command=self.tableau.yview)
@@ -169,7 +169,7 @@ class Inscription:
         self.tableau.pack(side="left",fill="both",expand=True,pady=5)
         #section detail
         detail_conteneur=tk.LabelFrame(conteneur_droit,text="INFORMATIONS",font=("DejaVu sans",10,"bold"),width=200,height=80)
-        detail_conteneur.pack(side="top",fill="y")
+        detail_conteneur.pack(side="top",fill="x",expand=True)
         detail=tk.Frame(detail_conteneur,pady=8,padx=8,bd=8)
         detail.pack(fill="both")
 
@@ -205,12 +205,11 @@ class Inscription:
                     facteur=max(facteur_x,facteur_y)
                     img=img.subsample(facteur,facteur)
                     self.tk_image=img
-            except:
-                print()
-
-
-
-
+                    label.config(image=img,width=0,height=0)
+                    label.image=img
+                    return img
+            except Exception as e:
+                messagebox.showerror("Erreue image",f"Impossible d'ouvrir le fichier{e}")
 
 
 app=Inscription()
