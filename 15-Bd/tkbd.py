@@ -24,7 +24,6 @@ def Ajouter():
         if not numero.isdigit():
             messagebox.showerror("Telephone","Veuillez inserer un vrai numero")
 
-    print(nom,numero)
     cursor.execute('INSERT INTO contacts(nom,telephone) VALUES(?,?) ',(nom,numero))
     conn.commit()
     rafraichir()
