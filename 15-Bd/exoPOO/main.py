@@ -100,7 +100,7 @@ class Inscription:
         conteneur_gauch=tk.LabelFrame(conteneur_principal, text="PERTIE INSCRIPTION",
                                  font=("DejaVu Sans",10,"bold"),
                                  )
-        conteneur_gauch.pack(side='left',fill="both",expand=True)
+        conteneur_gauch.pack(side='left',fill="both")
         tk.Label(conteneur_gauch,text="Photo :",font=("DejaVu Sans",10,"bold")).grid(row=0,column=0,padx=5,pady=5)
         #conteneur image
         conteneur_photo=tk.Frame(conteneur_gauch)
@@ -164,7 +164,7 @@ class Inscription:
         #scrolbar 
         scrollBar=ttk.Scrollbar(self.tableau,orient='vertical',command=self.tableau.yview)
         self.tableau.configure(yscrollcommand=scrollBar.set)
-        scrollBar.pack(side="right",fill='y',pady=5)
+        scrollBar.pack(side="right",fill='y',pady=15)
 
         self.tableau.pack(side="left",fill="both",expand=True,pady=5)
         #section detail
@@ -195,7 +195,16 @@ class Inscription:
                 self.lire_image=(ficher_path,self.label_image)
 
         def lire_image(self,path,label,dimenssion=(120,100)):
-            img =tk.PhotoImage(file=path)
+            try:
+                img =tk.PhotoImage(file=path)
+                img_width=img.width()
+                img_height=img.height()
+                if img_width>dimenssion[0] or img_height>dimenssion[1]:
+                    facteur_x=max(1,img_width//dimenssion[0])
+                    facteur_y=max(1,img_height//dimenssion[1])
+                    facteur=max(facteur_x,facteur_y)
+            except:
+                print()
 
 
 
